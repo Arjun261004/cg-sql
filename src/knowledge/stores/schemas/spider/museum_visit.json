@@ -1,0 +1,136 @@
+{
+  "database_id": "museum_visit",
+  "tables": {
+    "museum": {
+      "name": "museum",
+      "columns": {
+        "Museum_ID": {
+          "name": "Museum_ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Name": {
+          "name": "Name",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Num_of_Staff": {
+          "name": "Num_of_Staff",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Open_Year": {
+          "name": "Open_Year",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "Museum_ID"
+      ],
+      "foreign_keys": []
+    },
+    "visitor": {
+      "name": "visitor",
+      "columns": {
+        "ID": {
+          "name": "ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Name": {
+          "name": "Name",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Level_of_membership": {
+          "name": "Level_of_membership",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Age": {
+          "name": "Age",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "ID"
+      ],
+      "foreign_keys": []
+    },
+    "visit": {
+      "name": "visit",
+      "columns": {
+        "Museum_ID": {
+          "name": "Museum_ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "visitor_ID": {
+          "name": "visitor_ID",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Num_of_Ticket": {
+          "name": "Num_of_Ticket",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Total_spent": {
+          "name": "Total_spent",
+          "type": "REAL",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "Museum_ID",
+        "visitor_ID"
+      ],
+      "foreign_keys": [
+        {
+          "column": "visitor_ID",
+          "target_table": "visitor",
+          "target_column": "ID"
+        },
+        {
+          "column": "Museum_ID",
+          "target_table": "museum",
+          "target_column": "Museum_ID"
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "source": "spider_ingestor",
+    "database_id": "museum_visit",
+    "table": null,
+    "column": null,
+    "source_file": null,
+    "timestamp": "28672_1537759646.0"
+  }
+}

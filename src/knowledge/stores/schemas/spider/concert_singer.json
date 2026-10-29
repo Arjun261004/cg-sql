@@ -1,0 +1,214 @@
+{
+  "database_id": "concert_singer",
+  "tables": {
+    "stadium": {
+      "name": "stadium",
+      "columns": {
+        "Stadium_ID": {
+          "name": "Stadium_ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Location": {
+          "name": "Location",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Name": {
+          "name": "Name",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Capacity": {
+          "name": "Capacity",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Highest": {
+          "name": "Highest",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Lowest": {
+          "name": "Lowest",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Average": {
+          "name": "Average",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "Stadium_ID"
+      ],
+      "foreign_keys": []
+    },
+    "singer": {
+      "name": "singer",
+      "columns": {
+        "Singer_ID": {
+          "name": "Singer_ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Name": {
+          "name": "Name",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Country": {
+          "name": "Country",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Song_Name": {
+          "name": "Song_Name",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Song_release_year": {
+          "name": "Song_release_year",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Age": {
+          "name": "Age",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Is_male": {
+          "name": "Is_male",
+          "type": "bool",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "Singer_ID"
+      ],
+      "foreign_keys": []
+    },
+    "concert": {
+      "name": "concert",
+      "columns": {
+        "concert_ID": {
+          "name": "concert_ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "concert_Name": {
+          "name": "concert_Name",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Theme": {
+          "name": "Theme",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Stadium_ID": {
+          "name": "Stadium_ID",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Year": {
+          "name": "Year",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "concert_ID"
+      ],
+      "foreign_keys": [
+        {
+          "column": "Stadium_ID",
+          "target_table": "stadium",
+          "target_column": "Stadium_ID"
+        }
+      ]
+    },
+    "singer_in_concert": {
+      "name": "singer_in_concert",
+      "columns": {
+        "concert_ID": {
+          "name": "concert_ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Singer_ID": {
+          "name": "Singer_ID",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "concert_ID",
+        "Singer_ID"
+      ],
+      "foreign_keys": [
+        {
+          "column": "Singer_ID",
+          "target_table": "singer",
+          "target_column": "Singer_ID"
+        },
+        {
+          "column": "concert_ID",
+          "target_table": "concert",
+          "target_column": "concert_ID"
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "source": "spider_ingestor",
+    "database_id": "concert_singer",
+    "table": null,
+    "column": null,
+    "source_file": null,
+    "timestamp": "36864_1537759646.0"
+  }
+}

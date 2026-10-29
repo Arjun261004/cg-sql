@@ -1,0 +1,186 @@
+{
+  "database_id": "employee_hire_evaluation",
+  "tables": {
+    "employee": {
+      "name": "employee",
+      "columns": {
+        "Employee_ID": {
+          "name": "Employee_ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Name": {
+          "name": "Name",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Age": {
+          "name": "Age",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "City": {
+          "name": "City",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "Employee_ID"
+      ],
+      "foreign_keys": []
+    },
+    "shop": {
+      "name": "shop",
+      "columns": {
+        "Shop_ID": {
+          "name": "Shop_ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Name": {
+          "name": "Name",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Location": {
+          "name": "Location",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "District": {
+          "name": "District",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Number_products": {
+          "name": "Number_products",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Manager_name": {
+          "name": "Manager_name",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "Shop_ID"
+      ],
+      "foreign_keys": []
+    },
+    "hiring": {
+      "name": "hiring",
+      "columns": {
+        "Shop_ID": {
+          "name": "Shop_ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Employee_ID": {
+          "name": "Employee_ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Start_from": {
+          "name": "Start_from",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Is_full_time": {
+          "name": "Is_full_time",
+          "type": "bool",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "Employee_ID"
+      ],
+      "foreign_keys": [
+        {
+          "column": "Employee_ID",
+          "target_table": "employee",
+          "target_column": "Employee_ID"
+        },
+        {
+          "column": "Shop_ID",
+          "target_table": "shop",
+          "target_column": "Shop_ID"
+        }
+      ]
+    },
+    "evaluation": {
+      "name": "evaluation",
+      "columns": {
+        "Employee_ID": {
+          "name": "Employee_ID",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Year_awarded": {
+          "name": "Year_awarded",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Bonus": {
+          "name": "Bonus",
+          "type": "REAL",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "Employee_ID",
+        "Year_awarded"
+      ],
+      "foreign_keys": [
+        {
+          "column": "Employee_ID",
+          "target_table": "employee",
+          "target_column": "Employee_ID"
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "source": "spider_ingestor",
+    "database_id": "employee_hire_evaluation",
+    "table": null,
+    "column": null,
+    "source_file": null,
+    "timestamp": "36864_1537759650.0"
+  }
+}

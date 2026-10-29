@@ -1,0 +1,145 @@
+{
+  "body_builder": {
+    "Body_Builder_ID": {
+      "distinct_count": 5,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 5
+    },
+    "People_ID": {
+      "distinct_count": 5,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "min_value": 1,
+      "max_value": 6
+    },
+    "Snatch": {
+      "distinct_count": 4,
+      "null_count": 0,
+      "sample_values": [
+        142.5,
+        137.5,
+        140.0,
+        130.0
+      ],
+      "min_value": 130.0,
+      "max_value": 142.5
+    },
+    "Clean_Jerk": {
+      "distinct_count": 3,
+      "null_count": 0,
+      "sample_values": [
+        175.0,
+        177.5,
+        162.5
+      ],
+      "min_value": 162.5,
+      "max_value": 177.5
+    },
+    "Total": {
+      "distinct_count": 4,
+      "null_count": 0,
+      "sample_values": [
+        317.5,
+        315.0,
+        312.5,
+        292.5
+      ],
+      "min_value": 292.5,
+      "max_value": 317.5
+    }
+  },
+  "people": {
+    "People_ID": {
+      "distinct_count": 6,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 6
+    },
+    "Name": {
+      "distinct_count": 6,
+      "null_count": 0,
+      "sample_values": [
+        "Jack Campbell",
+        "Ty Conklin",
+        "Al Montoya",
+        "Mark Fayne",
+        "Cam Fowler"
+      ],
+      "min_value": "Al Montoya",
+      "max_value": "Ty Conklin"
+    },
+    "Height": {
+      "distinct_count": 6,
+      "null_count": 0,
+      "sample_values": [
+        182.0,
+        192.0,
+        195.0,
+        215.0,
+        196.0
+      ],
+      "min_value": 182.0,
+      "max_value": 215.0
+    },
+    "Weight": {
+      "distinct_count": 6,
+      "null_count": 0,
+      "sample_values": [
+        80.0,
+        90.0,
+        100.0,
+        102.0,
+        89.0
+      ],
+      "min_value": 80.0,
+      "max_value": 102.0
+    },
+    "Birth_Date": {
+      "distinct_count": 6,
+      "null_count": 0,
+      "sample_values": [
+        "January 1, 1992",
+        "March 30, 1976",
+        "February 13, 1985",
+        "May 5, 1987",
+        "December 5, 1991"
+      ],
+      "min_value": "December 5, 1991",
+      "max_value": "May 5, 1987"
+    },
+    "Birth_Place": {
+      "distinct_count": 6,
+      "null_count": 0,
+      "sample_values": [
+        "Port Huron, Michigan",
+        "Anchorage, Alaska",
+        "Glenview, Illinois",
+        "Nashua, New Hampshire",
+        "Farmington Hills, Michigan"
+      ],
+      "min_value": "Anchorage, Alaska",
+      "max_value": "Port Huron, Michigan"
+    }
+  }
+}

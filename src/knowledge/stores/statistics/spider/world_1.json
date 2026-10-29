@@ -1,0 +1,317 @@
+{
+  "city": {
+    "ID": {
+      "distinct_count": 4079,
+      "null_count": 0,
+      "sample_values": [
+        129,
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_value": 1,
+      "max_value": 4079
+    },
+    "Name": {
+      "distinct_count": 4001,
+      "null_count": 0,
+      "sample_values": [
+        "Kabul",
+        "Qandahar",
+        "Herat",
+        "Mazar-e-Sharif",
+        "Amsterdam"
+      ],
+      "min_value": "A Coru\u00f1a (La Coru\u00f1a)",
+      "max_value": "\u0160umen"
+    },
+    "CountryCode": {
+      "distinct_count": 232,
+      "null_count": 0,
+      "sample_values": [
+        "ABW",
+        "AFG",
+        "AGO",
+        "AIA",
+        "ALB"
+      ],
+      "min_value": "ABW",
+      "max_value": "ZWE"
+    },
+    "District": {
+      "distinct_count": 1367,
+      "null_count": 0,
+      "sample_values": [
+        "Kabol",
+        "Qandahar",
+        "Herat",
+        "Balkh",
+        "Noord-Holland"
+      ],
+      "min_value": "",
+      "max_value": "\u2013"
+    },
+    "Population": {
+      "distinct_count": 3897,
+      "null_count": 0,
+      "sample_values": [
+        1780000,
+        237500,
+        186800,
+        127800,
+        731200
+      ],
+      "min_value": 42,
+      "max_value": 10500000
+    }
+  },
+  "country": {
+    "Code": {
+      "distinct_count": 239,
+      "null_count": 0,
+      "sample_values": [
+        "ABW",
+        "AFG",
+        "AGO",
+        "AIA",
+        "ALB"
+      ],
+      "min_value": "ABW",
+      "max_value": "ZWE"
+    },
+    "Name": {
+      "distinct_count": 239,
+      "null_count": 0,
+      "sample_values": [
+        "Aruba",
+        "Afghanistan",
+        "Angola",
+        "Anguilla",
+        "Albania"
+      ],
+      "min_value": "Afghanistan",
+      "max_value": "Zimbabwe"
+    },
+    "Continent": {
+      "distinct_count": 7,
+      "null_count": 0,
+      "sample_values": [
+        "North America",
+        "Asia",
+        "Africa",
+        "Europe",
+        "South America"
+      ],
+      "min_value": "Africa",
+      "max_value": "South America"
+    },
+    "Region": {
+      "distinct_count": 25,
+      "null_count": 0,
+      "sample_values": [
+        "Caribbean",
+        "Southern and Central Asia",
+        "Central Africa",
+        "Southern Europe",
+        "Middle East"
+      ],
+      "min_value": "Antarctica",
+      "max_value": "Western Europe"
+    },
+    "SurfaceArea": {
+      "distinct_count": 238,
+      "null_count": 0,
+      "sample_values": [
+        193.0,
+        652090.0,
+        1246700.0,
+        96.0,
+        28748.0
+      ],
+      "min_value": 0.4,
+      "max_value": 17075400.0
+    },
+    "IndepYear": {
+      "distinct_count": 88,
+      "null_count": 47,
+      "sample_values": [
+        1919,
+        1975,
+        1912,
+        1278,
+        1971
+      ],
+      "min_value": -1523,
+      "max_value": 1994
+    },
+    "Population": {
+      "distinct_count": 226,
+      "null_count": 0,
+      "sample_values": [
+        103000,
+        22720000,
+        12878000,
+        8000,
+        3401200
+      ],
+      "min_value": 0,
+      "max_value": 1277558000
+    },
+    "LifeExpectancy": {
+      "distinct_count": 160,
+      "null_count": 17,
+      "sample_values": [
+        78.4,
+        45.9,
+        38.3,
+        76.1,
+        71.6
+      ],
+      "min_value": 37.2,
+      "max_value": 83.5
+    },
+    "GNP": {
+      "distinct_count": 214,
+      "null_count": 0,
+      "sample_values": [
+        828.0,
+        5976.0,
+        6648.0,
+        63.2,
+        3205.0
+      ],
+      "min_value": 0.0,
+      "max_value": 8510700.0
+    },
+    "GNPOld": {
+      "distinct_count": 178,
+      "null_count": 61,
+      "sample_values": [
+        793.0,
+        7984.0,
+        2500.0,
+        36846.0,
+        323310.0
+      ],
+      "min_value": 157.0,
+      "max_value": 8110900.0
+    },
+    "LocalName": {
+      "distinct_count": 239,
+      "null_count": 0,
+      "sample_values": [
+        "Aruba",
+        "Afganistan/Afqanestan",
+        "Angola",
+        "Anguilla",
+        "Shqip\u00ebria"
+      ],
+      "min_value": "Afganistan/Afqanestan",
+      "max_value": "\u2013"
+    },
+    "GovernmentForm": {
+      "distinct_count": 35,
+      "null_count": 0,
+      "sample_values": [
+        "Nonmetropolitan Territory of The Netherlands",
+        "Islamic Emirate",
+        "Republic",
+        "Dependent Territory of the UK",
+        "Parliamentary Coprincipality"
+      ],
+      "min_value": "Administrated by the UN",
+      "max_value": "US Territory"
+    },
+    "HeadOfState": {
+      "distinct_count": 179,
+      "null_count": 1,
+      "sample_values": [
+        "Beatrix",
+        "Mohammad Omar",
+        "Jos\u00e9 Eduardo dos Santos",
+        "Elisabeth II",
+        "Rexhep Mejdani"
+      ],
+      "min_value": "",
+      "max_value": "\u0160tipe Mesic"
+    },
+    "Capital": {
+      "distinct_count": 232,
+      "null_count": 7,
+      "sample_values": [
+        129,
+        1,
+        56,
+        62,
+        34
+      ],
+      "min_value": 1,
+      "max_value": 4074
+    },
+    "Code2": {
+      "distinct_count": 239,
+      "null_count": 0,
+      "sample_values": [
+        "AW",
+        "AF",
+        "AO",
+        "AI",
+        "AL"
+      ],
+      "min_value": "AD",
+      "max_value": "ZW"
+    }
+  },
+  "countrylanguage": {
+    "CountryCode": {
+      "distinct_count": 233,
+      "null_count": 0,
+      "sample_values": [
+        "ABW",
+        "AFG",
+        "AGO",
+        "AIA",
+        "ALB"
+      ],
+      "min_value": "ABW",
+      "max_value": "ZWE"
+    },
+    "Language": {
+      "distinct_count": 457,
+      "null_count": 0,
+      "sample_values": [
+        "Dutch",
+        "English",
+        "Papiamento",
+        "Spanish",
+        "Balochi"
+      ],
+      "min_value": "Abhyasi",
+      "max_value": "[South]Mande"
+    },
+    "IsOfficial": {
+      "distinct_count": 2,
+      "null_count": 0,
+      "sample_values": [
+        "T",
+        "F"
+      ],
+      "min_value": "F",
+      "max_value": "T"
+    },
+    "Percentage": {
+      "distinct_count": 357,
+      "null_count": 0,
+      "sample_values": [
+        5.3,
+        9.5,
+        76.7,
+        7.4,
+        0.9
+      ],
+      "min_value": 0.0,
+      "max_value": 100.0
+    }
+  }
+}

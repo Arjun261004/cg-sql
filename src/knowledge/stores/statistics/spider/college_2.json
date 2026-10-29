@@ -1,0 +1,599 @@
+{
+  "classroom": {
+    "building": {
+      "distinct_count": 20,
+      "null_count": 0,
+      "sample_values": [
+        "Alumni",
+        "Bronfman",
+        "Chandler",
+        "Drown",
+        "Fairchild"
+      ],
+      "min_value": "Alumni",
+      "max_value": "Whitman"
+    },
+    "room_number": {
+      "distinct_count": 27,
+      "null_count": 0,
+      "sample_values": [
+        "143",
+        "547",
+        "700",
+        "375",
+        "804"
+      ],
+      "min_value": "105",
+      "max_value": "972"
+    },
+    "capacity": {
+      "distinct_count": 25,
+      "null_count": 0,
+      "sample_values": [
+        10,
+        27,
+        92,
+        34,
+        120
+      ],
+      "min_value": 10,
+      "max_value": 120
+    }
+  },
+  "department": {
+    "dept_name": {
+      "distinct_count": 20,
+      "null_count": 0,
+      "sample_values": [
+        "Accounting",
+        "Astronomy",
+        "Athletics",
+        "Biology",
+        "Civil Eng."
+      ],
+      "min_value": "Accounting",
+      "max_value": "Statistics"
+    },
+    "building": {
+      "distinct_count": 16,
+      "null_count": 0,
+      "sample_values": [
+        "Chandler",
+        "Candlestick",
+        "Taylor",
+        "Wrigley",
+        "Lambeau"
+      ],
+      "min_value": "Brodhead",
+      "max_value": "Wrigley"
+    },
+    "budget": {
+      "distinct_count": 20,
+      "null_count": 0,
+      "sample_values": [
+        255041.46,
+        647610.55,
+        699140.86,
+        942162.76,
+        210627.58
+      ],
+      "min_value": 106378.69,
+      "max_value": 942162.76
+    }
+  },
+  "course": {
+    "course_id": {
+      "distinct_count": 200,
+      "null_count": 0,
+      "sample_values": [
+        "101",
+        "105",
+        "123",
+        "127",
+        "130"
+      ],
+      "min_value": "101",
+      "max_value": "998"
+    },
+    "title": {
+      "distinct_count": 133,
+      "null_count": 0,
+      "sample_values": [
+        "C  Programming",
+        "The Music of Donovan",
+        "Electron Microscopy",
+        "International Finance",
+        "Greek Tragedy"
+      ],
+      "min_value": "Accounting",
+      "max_value": "World History"
+    },
+    "dept_name": {
+      "distinct_count": 20,
+      "null_count": 0,
+      "sample_values": [
+        "Mech. Eng.",
+        "Comp. Sci.",
+        "Statistics",
+        "Psychology",
+        "Biology"
+      ],
+      "min_value": "Accounting",
+      "max_value": "Statistics"
+    },
+    "credits": {
+      "distinct_count": 2,
+      "null_count": 0,
+      "sample_values": [
+        4,
+        3
+      ],
+      "min_value": 3,
+      "max_value": 4
+    }
+  },
+  "instructor": {
+    "ID": {
+      "distinct_count": 50,
+      "null_count": 0,
+      "sample_values": [
+        "14365",
+        "15347",
+        "16807",
+        "19368",
+        "22591"
+      ],
+      "min_value": "14365",
+      "max_value": "99052"
+    },
+    "name": {
+      "distinct_count": 50,
+      "null_count": 0,
+      "sample_values": [
+        "McKinnon",
+        "Pingr",
+        "Mird",
+        "Luo",
+        "Murata"
+      ],
+      "min_value": "Arias",
+      "max_value": "Yin"
+    },
+    "dept_name": {
+      "distinct_count": 17,
+      "null_count": 0,
+      "sample_values": [
+        "Cybernetics",
+        "Statistics",
+        "Marketing",
+        "English",
+        "Athletics"
+      ],
+      "min_value": "Accounting",
+      "max_value": "Statistics"
+    },
+    "salary": {
+      "distinct_count": 50,
+      "null_count": 0,
+      "sample_values": [
+        94333.99,
+        59303.62,
+        119921.41,
+        88791.45,
+        61387.56
+      ],
+      "min_value": 32241.56,
+      "max_value": 124651.41
+    }
+  },
+  "section": {
+    "course_id": {
+      "distinct_count": 85,
+      "null_count": 0,
+      "sample_values": [
+        "105",
+        "137",
+        "158",
+        "169",
+        "192"
+      ],
+      "min_value": "105",
+      "max_value": "991"
+    },
+    "sec_id": {
+      "distinct_count": 3,
+      "null_count": 0,
+      "sample_values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "min_value": "1",
+      "max_value": "3"
+    },
+    "semester": {
+      "distinct_count": 2,
+      "null_count": 0,
+      "sample_values": [
+        "Fall",
+        "Spring"
+      ],
+      "min_value": "Fall",
+      "max_value": "Spring"
+    },
+    "year": {
+      "distinct_count": 10,
+      "null_count": 0,
+      "sample_values": [
+        2009,
+        2002,
+        2008,
+        2007,
+        2006
+      ],
+      "min_value": 2001,
+      "max_value": 2010
+    },
+    "building": {
+      "distinct_count": 18,
+      "null_count": 0,
+      "sample_values": [
+        "Chandler",
+        "Gates",
+        "Whitman",
+        "Fairchild",
+        "Saucon"
+      ],
+      "min_value": "Alumni",
+      "max_value": "Whitman"
+    },
+    "room_number": {
+      "distinct_count": 25,
+      "null_count": 0,
+      "sample_values": [
+        "804",
+        "314",
+        "434",
+        "145",
+        "844"
+      ],
+      "min_value": "105",
+      "max_value": "972"
+    },
+    "time_slot_id": {
+      "distinct_count": 16,
+      "null_count": 0,
+      "sample_values": [
+        "N",
+        "K",
+        "O",
+        "B",
+        "D"
+      ],
+      "min_value": "A",
+      "max_value": "P"
+    }
+  },
+  "teaches": {
+    "ID": {
+      "distinct_count": 31,
+      "null_count": 0,
+      "sample_values": [
+        "14365",
+        "15347",
+        "19368",
+        "22591",
+        "25946"
+      ],
+      "min_value": "14365",
+      "max_value": "99052"
+    },
+    "course_id": {
+      "distinct_count": 85,
+      "null_count": 0,
+      "sample_values": [
+        "747",
+        "169",
+        "445",
+        "808",
+        "962"
+      ],
+      "min_value": "105",
+      "max_value": "991"
+    },
+    "sec_id": {
+      "distinct_count": 3,
+      "null_count": 0,
+      "sample_values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "min_value": "1",
+      "max_value": "3"
+    },
+    "semester": {
+      "distinct_count": 2,
+      "null_count": 0,
+      "sample_values": [
+        "Spring",
+        "Fall"
+      ],
+      "min_value": "Fall",
+      "max_value": "Spring"
+    },
+    "year": {
+      "distinct_count": 10,
+      "null_count": 0,
+      "sample_values": [
+        2004,
+        2007,
+        2001,
+        2003,
+        2008
+      ],
+      "min_value": 2001,
+      "max_value": 2010
+    }
+  },
+  "student": {
+    "ID": {
+      "distinct_count": 2000,
+      "null_count": 0,
+      "sample_values": [
+        "1000",
+        "10033",
+        "10076",
+        "1018",
+        "10204"
+      ],
+      "min_value": "1000",
+      "max_value": "99977"
+    },
+    "name": {
+      "distinct_count": 1568,
+      "null_count": 0,
+      "sample_values": [
+        "Schrefl",
+        "Rumat",
+        "Miliko",
+        "Moszkowski",
+        "Prieto"
+      ],
+      "min_value": "Aarde",
+      "max_value": "\u00c3\u2026str\u00c3\u00b6m"
+    },
+    "dept_name": {
+      "distinct_count": 20,
+      "null_count": 0,
+      "sample_values": [
+        "History",
+        "Finance",
+        "Statistics",
+        "Civil Eng.",
+        "Biology"
+      ],
+      "min_value": "Accounting",
+      "max_value": "Statistics"
+    },
+    "tot_cred": {
+      "distinct_count": 130,
+      "null_count": 0,
+      "sample_values": [
+        4,
+        100,
+        116,
+        73,
+        91
+      ],
+      "min_value": 0,
+      "max_value": 129
+    }
+  },
+  "takes": {
+    "ID": {
+      "distinct_count": 2000,
+      "null_count": 0,
+      "sample_values": [
+        "1000",
+        "10033",
+        "10076",
+        "1018",
+        "10204"
+      ],
+      "min_value": "1000",
+      "max_value": "99977"
+    },
+    "course_id": {
+      "distinct_count": 85,
+      "null_count": 0,
+      "sample_values": [
+        "239",
+        "319",
+        "362",
+        "493",
+        "571"
+      ],
+      "min_value": "105",
+      "max_value": "991"
+    },
+    "sec_id": {
+      "distinct_count": 3,
+      "null_count": 0,
+      "sample_values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "min_value": "1",
+      "max_value": "3"
+    },
+    "semester": {
+      "distinct_count": 2,
+      "null_count": 0,
+      "sample_values": [
+        "Fall",
+        "Spring"
+      ],
+      "min_value": "Fall",
+      "max_value": "Spring"
+    },
+    "year": {
+      "distinct_count": 10,
+      "null_count": 0,
+      "sample_values": [
+        2006,
+        2003,
+        2005,
+        2010,
+        2004
+      ],
+      "min_value": 2001,
+      "max_value": 2010
+    },
+    "grade": {
+      "distinct_count": 9,
+      "null_count": 0,
+      "sample_values": [
+        "C-",
+        "B-",
+        "A-",
+        "A ",
+        "B+"
+      ],
+      "min_value": "A ",
+      "max_value": "C-"
+    }
+  },
+  "advisor": {
+    "s_ID": {
+      "distinct_count": 2000,
+      "null_count": 0,
+      "sample_values": [
+        "1000",
+        "10033",
+        "10076",
+        "1018",
+        "10204"
+      ],
+      "min_value": "1000",
+      "max_value": "99977"
+    },
+    "i_ID": {
+      "distinct_count": 50,
+      "null_count": 0,
+      "sample_values": [
+        "19368",
+        "95030",
+        "22591",
+        "77346",
+        "31955"
+      ],
+      "min_value": "14365",
+      "max_value": "99052"
+    }
+  },
+  "time_slot": {
+    "time_slot_id": {
+      "distinct_count": 8,
+      "null_count": 0,
+      "sample_values": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "min_value": "A",
+      "max_value": "H"
+    },
+    "day": {
+      "distinct_count": 5,
+      "null_count": 0,
+      "sample_values": [
+        "F",
+        "M",
+        "W",
+        "R",
+        "T"
+      ],
+      "min_value": "F",
+      "max_value": "W"
+    },
+    "start_hr": {
+      "distinct_count": 7,
+      "null_count": 0,
+      "sample_values": [
+        8,
+        9,
+        11,
+        13,
+        10
+      ],
+      "min_value": 8,
+      "max_value": 16
+    },
+    "start_min": {
+      "distinct_count": 2,
+      "null_count": 0,
+      "sample_values": [
+        0,
+        30
+      ],
+      "min_value": 0,
+      "max_value": 30
+    },
+    "end_hr": {
+      "distinct_count": 7,
+      "null_count": 0,
+      "sample_values": [
+        8,
+        9,
+        11,
+        13,
+        15
+      ],
+      "min_value": 8,
+      "max_value": 16
+    },
+    "end_min": {
+      "distinct_count": 3,
+      "null_count": 0,
+      "sample_values": [
+        50,
+        45,
+        30
+      ],
+      "min_value": 30,
+      "max_value": 50
+    }
+  },
+  "prereq": {
+    "course_id": {
+      "distinct_count": 79,
+      "null_count": 0,
+      "sample_values": [
+        "133",
+        "158",
+        "169",
+        "209",
+        "224"
+      ],
+      "min_value": "133",
+      "max_value": "998"
+    },
+    "prereq_id": {
+      "distinct_count": 78,
+      "null_count": 0,
+      "sample_values": [
+        "130",
+        "169",
+        "345",
+        "647",
+        "139"
+      ],
+      "min_value": "101",
+      "max_value": "998"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "error_type": "NO_SUCH_TABLE",
+    "pattern": "no such table:",
+    "diagnostic_steps": [
+      "Extract the invalid table name from the error message.",
+      "Search the Knowledge Base for the closest matching valid table name.",
+      "Check if the invalid table name is actually an alias that was not defined in the FROM clause."
+    ],
+    "repair_strategies": [
+      "Replace the invalid table name with the closest matching valid table name.",
+      "Define the missing alias in the FROM clause."
+    ]
+  },
+  {
+    "error_type": "NO_SUCH_COLUMN",
+    "pattern": "no such column:",
+    "diagnostic_steps": [
+      "Extract the invalid column name from the error message.",
+      "Identify the table(s) involved in the query.",
+      "Search the Knowledge Base for the closest matching valid column name within the involved tables."
+    ],
+    "repair_strategies": [
+      "Replace the invalid column name with the closest matching valid column name.",
+      "If the column belongs to a different table, ensure the table is properly joined."
+    ]
+  },
+  {
+    "error_type": "AMBIGUOUS_COLUMN",
+    "pattern": "ambiguous column name:",
+    "diagnostic_steps": [
+      "Extract the ambiguous column name from the error message.",
+      "Identify all tables in the query that contain this column name."
+    ],
+    "repair_strategies": [
+      "Prefix the ambiguous column name with the appropriate table alias."
+    ]
+  }
+]

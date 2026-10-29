@@ -1,0 +1,11 @@
+[
+  {
+    "source_table": "body_builder",
+    "source_column": "People_ID",
+    "target_table": "people",
+    "target_column": "People_ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  }
+]

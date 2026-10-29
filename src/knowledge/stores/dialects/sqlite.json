@@ -1,0 +1,20 @@
+{
+  "dialect": "SQLite",
+  "supported_functions": [
+    "COUNT", "SUM", "AVG", "MIN", "MAX",
+    "SUBSTR", "INSTR", "LENGTH", "REPLACE",
+    "UPPER", "LOWER", "ABS", "ROUND",
+    "IFNULL", "COALESCE", "CAST"
+  ],
+  "date_syntax": "Use strftime('%Y', col), DATE(col), or standard string comparisons. No EXTRACT(). No DATE_TRUNC().",
+  "string_functions": "|| for concatenation.",
+  "identifier_quoting": "Double quotes \"identifier\" or backticks `identifier`.",
+  "known_restrictions": [
+    "No FULL OUTER JOIN.",
+    "No RIGHT OUTER JOIN.",
+    "No EXTRACT function for dates.",
+    "No DATE_TRUNC function.",
+    "No strongly typed dates (stored as text).",
+    "Window functions only in SQLite 3.25+."
+  ]
+}

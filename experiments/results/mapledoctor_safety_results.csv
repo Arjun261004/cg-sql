@@ -1,0 +1,10 @@
+guard_name,intended_action,expected_blocked,actually_blocked,correct_behavior,violations_detected,latency_ms
+Extremum Rewrite Guard,Block MAX/MIN rewrite to ORDER BY + LIMIT 1,True,True,True,['Extremum rewrite detected: converted MAX/MIN into ORDER BY + LIMIT 1'],0.41
+Projection Drop Guard,Block accidental removal of requested SELECT columns,True,True,True,"['Projection drop: original had 4 columns, repaired has 1']",0.24
+Schema Hallucination Guard,Block introduction of non-existent tables/columns,True,True,True,"[""Schema hallucination in repair: non-existent table 'hallucinated_fake_table'""]",0.19
+CAST Injection Guard,Prevent unnecessary CAST on valid text columns,False,False,True,[],0.72
+Value Over-Correction Guard,Prevent replacing valid constant with arbitrary value,False,False,True,[],0.62
+Empty Symptom Over-Correction Guard,Preserve legitimate empty-result queries without mutation,False,False,True,[],0.83
+Column Substitution Guard,Prevent swapping valid column for alternative,False,False,True,[],0.48
+Predicate Flip Guard,Preserve negation logic (NOT IN) against false flipping,False,False,True,[],0.59
+Rule Over-Triggering Guard,Prevent = to IN rule from mutating scalar integer comparison,False,False,True,[],0.46

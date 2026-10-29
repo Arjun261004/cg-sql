@@ -1,0 +1,173 @@
+{
+  "department": {
+    "Department_ID": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 15
+    },
+    "Name": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        "State",
+        "Treasury",
+        "Defense",
+        "Justice",
+        "Interior"
+      ],
+      "min_value": "Agriculture",
+      "max_value": "Veterans Affairs"
+    },
+    "Creation": {
+      "distinct_count": 14,
+      "null_count": 0,
+      "sample_values": [
+        "1789",
+        "1947",
+        "1870",
+        "1849",
+        "1889"
+      ],
+      "min_value": "1789",
+      "max_value": "2002"
+    },
+    "Ranking": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 15
+    },
+    "Budget_in_Billions": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        9.96,
+        11.1,
+        439.3,
+        23.4,
+        10.7
+      ],
+      "min_value": 6.2,
+      "max_value": 543.2
+    },
+    "Num_Employees": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        30266.0,
+        115897.0,
+        3000000.0,
+        112557.0,
+        71436.0
+      ],
+      "min_value": 4487.0,
+      "max_value": 3000000.0
+    }
+  },
+  "head": {
+    "head_ID": {
+      "distinct_count": 10,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 10
+    },
+    "name": {
+      "distinct_count": 10,
+      "null_count": 0,
+      "sample_values": [
+        "Tiger Woods",
+        "Sergio Garc\u00eda",
+        "K. J. Choi",
+        "Dudley Hart",
+        "Jeff Maggert"
+      ],
+      "min_value": "Billy Mayfair",
+      "max_value": "Tiger Woods"
+    },
+    "born_state": {
+      "distinct_count": 5,
+      "null_count": 0,
+      "sample_values": [
+        "Alabama",
+        "California",
+        "Delaware",
+        "Florida",
+        "Connecticut"
+      ],
+      "min_value": "Alabama",
+      "max_value": "Florida"
+    },
+    "age": {
+      "distinct_count": 8,
+      "null_count": 0,
+      "sample_values": [
+        67.0,
+        68.0,
+        69.0,
+        52.0,
+        53.0
+      ],
+      "min_value": 43.0,
+      "max_value": 69.0
+    }
+  },
+  "management": {
+    "department_ID": {
+      "distinct_count": 4,
+      "null_count": 0,
+      "sample_values": [
+        2,
+        7,
+        11,
+        15
+      ],
+      "min_value": 2,
+      "max_value": 15
+    },
+    "head_ID": {
+      "distinct_count": 5,
+      "null_count": 0,
+      "sample_values": [
+        5,
+        6,
+        3,
+        10,
+        4
+      ],
+      "min_value": 3,
+      "max_value": 10
+    },
+    "temporary_acting": {
+      "distinct_count": 2,
+      "null_count": 0,
+      "sample_values": [
+        "Yes",
+        "No"
+      ],
+      "min_value": "No",
+      "max_value": "Yes"
+    }
+  }
+}

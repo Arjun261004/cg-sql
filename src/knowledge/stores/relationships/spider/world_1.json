@@ -1,0 +1,20 @@
+[
+  {
+    "source_table": "city",
+    "source_column": "CountryCode",
+    "target_table": "country",
+    "target_column": "Code",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "countrylanguage",
+    "source_column": "CountryCode",
+    "target_table": "country",
+    "target_column": "Code",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  }
+]

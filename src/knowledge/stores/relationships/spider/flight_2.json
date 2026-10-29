@@ -1,0 +1,20 @@
+[
+  {
+    "source_table": "flights",
+    "source_column": "DestAirport",
+    "target_table": "airports",
+    "target_column": "AirportCode",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "flights",
+    "source_column": "SourceAirport",
+    "target_table": "airports",
+    "target_column": "AirportCode",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  }
+]

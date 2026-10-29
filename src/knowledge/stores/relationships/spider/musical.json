@@ -1,0 +1,11 @@
+[
+  {
+    "source_table": "actor",
+    "source_column": "Musical_ID",
+    "target_table": "actor",
+    "target_column": "Actor_ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  }
+]

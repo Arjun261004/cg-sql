@@ -1,0 +1,171 @@
+{
+  "database_id": "cinema",
+  "tables": {
+    "film": {
+      "name": "film",
+      "columns": {
+        "Film_ID": {
+          "name": "Film_ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Rank_in_series": {
+          "name": "Rank_in_series",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Number_in_season": {
+          "name": "Number_in_season",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Title": {
+          "name": "Title",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Directed_by": {
+          "name": "Directed_by",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Original_air_date": {
+          "name": "Original_air_date",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Production_code": {
+          "name": "Production_code",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "Film_ID"
+      ],
+      "foreign_keys": []
+    },
+    "cinema": {
+      "name": "cinema",
+      "columns": {
+        "Cinema_ID": {
+          "name": "Cinema_ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Name": {
+          "name": "Name",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Openning_year": {
+          "name": "Openning_year",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Capacity": {
+          "name": "Capacity",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Location": {
+          "name": "Location",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "Cinema_ID"
+      ],
+      "foreign_keys": []
+    },
+    "schedule": {
+      "name": "schedule",
+      "columns": {
+        "Cinema_ID": {
+          "name": "Cinema_ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Film_ID": {
+          "name": "Film_ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Date": {
+          "name": "Date",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Show_times_per_day": {
+          "name": "Show_times_per_day",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Price": {
+          "name": "Price",
+          "type": "float",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "Cinema_ID",
+        "Film_ID"
+      ],
+      "foreign_keys": [
+        {
+          "column": "Cinema_ID",
+          "target_table": "cinema",
+          "target_column": "Cinema_ID"
+        },
+        {
+          "column": "Film_ID",
+          "target_table": "film",
+          "target_column": "Film_ID"
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "source": "spider_ingestor",
+    "database_id": "cinema",
+    "table": null,
+    "column": null,
+    "source_file": null,
+    "timestamp": "28672_1537759644.0"
+  }
+}

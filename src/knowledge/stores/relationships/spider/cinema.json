@@ -1,0 +1,20 @@
+[
+  {
+    "source_table": "schedule",
+    "source_column": "Cinema_ID",
+    "target_table": "cinema",
+    "target_column": "Cinema_ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "schedule",
+    "source_column": "Film_ID",
+    "target_table": "film",
+    "target_column": "Film_ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  }
+]

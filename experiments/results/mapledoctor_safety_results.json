@@ -1,0 +1,89 @@
+[
+  {
+    "guard_name": "Extremum Rewrite Guard",
+    "intended_action": "Block MAX/MIN rewrite to ORDER BY + LIMIT 1",
+    "expected_blocked": true,
+    "actually_blocked": true,
+    "correct_behavior": true,
+    "violations_detected": [
+      "Extremum rewrite detected: converted MAX/MIN into ORDER BY + LIMIT 1"
+    ],
+    "latency_ms": 0.41
+  },
+  {
+    "guard_name": "Projection Drop Guard",
+    "intended_action": "Block accidental removal of requested SELECT columns",
+    "expected_blocked": true,
+    "actually_blocked": true,
+    "correct_behavior": true,
+    "violations_detected": [
+      "Projection drop: original had 4 columns, repaired has 1"
+    ],
+    "latency_ms": 0.24
+  },
+  {
+    "guard_name": "Schema Hallucination Guard",
+    "intended_action": "Block introduction of non-existent tables/columns",
+    "expected_blocked": true,
+    "actually_blocked": true,
+    "correct_behavior": true,
+    "violations_detected": [
+      "Schema hallucination in repair: non-existent table 'hallucinated_fake_table'"
+    ],
+    "latency_ms": 0.19
+  },
+  {
+    "guard_name": "CAST Injection Guard",
+    "intended_action": "Prevent unnecessary CAST on valid text columns",
+    "expected_blocked": false,
+    "actually_blocked": false,
+    "correct_behavior": true,
+    "violations_detected": [],
+    "latency_ms": 0.72
+  },
+  {
+    "guard_name": "Value Over-Correction Guard",
+    "intended_action": "Prevent replacing valid constant with arbitrary value",
+    "expected_blocked": false,
+    "actually_blocked": false,
+    "correct_behavior": true,
+    "violations_detected": [],
+    "latency_ms": 0.62
+  },
+  {
+    "guard_name": "Empty Symptom Over-Correction Guard",
+    "intended_action": "Preserve legitimate empty-result queries without mutation",
+    "expected_blocked": false,
+    "actually_blocked": false,
+    "correct_behavior": true,
+    "violations_detected": [],
+    "latency_ms": 0.83
+  },
+  {
+    "guard_name": "Column Substitution Guard",
+    "intended_action": "Prevent swapping valid column for alternative",
+    "expected_blocked": false,
+    "actually_blocked": false,
+    "correct_behavior": true,
+    "violations_detected": [],
+    "latency_ms": 0.48
+  },
+  {
+    "guard_name": "Predicate Flip Guard",
+    "intended_action": "Preserve negation logic (NOT IN) against false flipping",
+    "expected_blocked": false,
+    "actually_blocked": false,
+    "correct_behavior": true,
+    "violations_detected": [],
+    "latency_ms": 0.59
+  },
+  {
+    "guard_name": "Rule Over-Triggering Guard",
+    "intended_action": "Prevent = to IN rule from mutating scalar integer comparison",
+    "expected_blocked": false,
+    "actually_blocked": false,
+    "correct_behavior": true,
+    "violations_detected": [],
+    "latency_ms": 0.46
+  }
+]

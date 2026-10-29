@@ -1,0 +1,275 @@
+{
+  "stadium": {
+    "Stadium_ID": {
+      "distinct_count": 9,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 10
+    },
+    "Location": {
+      "distinct_count": 9,
+      "null_count": 0,
+      "sample_values": [
+        "Raith Rovers",
+        "Ayr United",
+        "East Fife",
+        "Queen's Park",
+        "Stirling Albion"
+      ],
+      "min_value": "Alloa Athletic",
+      "max_value": "Stirling Albion"
+    },
+    "Name": {
+      "distinct_count": 9,
+      "null_count": 0,
+      "sample_values": [
+        "Stark's Park",
+        "Somerset Park",
+        "Bayview Stadium",
+        "Hampden Park",
+        "Forthbank Stadium"
+      ],
+      "min_value": "Balmoor",
+      "max_value": "Stark's Park"
+    },
+    "Capacity": {
+      "distinct_count": 9,
+      "null_count": 0,
+      "sample_values": [
+        10104,
+        11998,
+        2000,
+        52500,
+        3808
+      ],
+      "min_value": 2000,
+      "max_value": 52500
+    },
+    "Highest": {
+      "distinct_count": 9,
+      "null_count": 0,
+      "sample_values": [
+        4812,
+        2363,
+        1980,
+        1763,
+        1125
+      ],
+      "min_value": 780,
+      "max_value": 4812
+    },
+    "Lowest": {
+      "distinct_count": 9,
+      "null_count": 0,
+      "sample_values": [
+        1294,
+        1057,
+        533,
+        466,
+        404
+      ],
+      "min_value": 315,
+      "max_value": 1294
+    },
+    "Average": {
+      "distinct_count": 9,
+      "null_count": 0,
+      "sample_values": [
+        2106,
+        1477,
+        864,
+        730,
+        642
+      ],
+      "min_value": 552,
+      "max_value": 2106
+    }
+  },
+  "singer": {
+    "Singer_ID": {
+      "distinct_count": 6,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 6
+    },
+    "Name": {
+      "distinct_count": 6,
+      "null_count": 0,
+      "sample_values": [
+        "Joe Sharp",
+        "Timbaland",
+        "Justin Brown",
+        "Rose White",
+        "John Nizinik"
+      ],
+      "min_value": "Joe Sharp",
+      "max_value": "Tribal King"
+    },
+    "Country": {
+      "distinct_count": 3,
+      "null_count": 0,
+      "sample_values": [
+        "Netherlands",
+        "United States",
+        "France"
+      ],
+      "min_value": "France",
+      "max_value": "United States"
+    },
+    "Song_Name": {
+      "distinct_count": 6,
+      "null_count": 0,
+      "sample_values": [
+        "You",
+        "Dangerous",
+        "Hey Oh",
+        "Sun",
+        "Gentleman"
+      ],
+      "min_value": "Dangerous",
+      "max_value": "You"
+    },
+    "Song_release_year": {
+      "distinct_count": 6,
+      "null_count": 0,
+      "sample_values": [
+        "1992",
+        "2008",
+        "2013",
+        "2003",
+        "2014"
+      ],
+      "min_value": "1992",
+      "max_value": "2016"
+    },
+    "Age": {
+      "distinct_count": 6,
+      "null_count": 0,
+      "sample_values": [
+        52,
+        32,
+        29,
+        41,
+        43
+      ],
+      "min_value": 25,
+      "max_value": 52
+    },
+    "Is_male": {
+      "distinct_count": 2,
+      "null_count": 0,
+      "sample_values": [
+        "F",
+        "T"
+      ],
+      "min_value": "F",
+      "max_value": "T"
+    }
+  },
+  "concert": {
+    "concert_ID": {
+      "distinct_count": 6,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 6
+    },
+    "concert_Name": {
+      "distinct_count": 5,
+      "null_count": 0,
+      "sample_values": [
+        "Auditions",
+        "Super bootcamp",
+        "Home Visits",
+        "Week 1",
+        "Week 2"
+      ],
+      "min_value": "Auditions",
+      "max_value": "Week 2"
+    },
+    "Theme": {
+      "distinct_count": 6,
+      "null_count": 0,
+      "sample_values": [
+        "Free choice",
+        "Free choice 2",
+        "Bleeding Love",
+        "Wide Awake",
+        "Happy Tonight"
+      ],
+      "min_value": "Bleeding Love",
+      "max_value": "Wide Awake"
+    },
+    "Stadium_ID": {
+      "distinct_count": 5,
+      "null_count": 0,
+      "sample_values": [
+        "1",
+        "2",
+        "10",
+        "9",
+        "7"
+      ],
+      "min_value": "1",
+      "max_value": "9"
+    },
+    "Year": {
+      "distinct_count": 2,
+      "null_count": 0,
+      "sample_values": [
+        "2014",
+        "2015"
+      ],
+      "min_value": "2014",
+      "max_value": "2015"
+    }
+  },
+  "singer_in_concert": {
+    "concert_ID": {
+      "distinct_count": 6,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 6
+    },
+    "Singer_ID": {
+      "distinct_count": 5,
+      "null_count": 0,
+      "sample_values": [
+        "2",
+        "3",
+        "5",
+        "6",
+        "4"
+      ],
+      "min_value": "2",
+      "max_value": "6"
+    }
+  }
+}

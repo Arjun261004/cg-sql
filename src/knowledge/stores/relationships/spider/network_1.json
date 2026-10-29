@@ -1,0 +1,38 @@
+[
+  {
+    "source_table": "Friend",
+    "source_column": "friend_id",
+    "target_table": "Highschooler",
+    "target_column": "ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "Friend",
+    "source_column": "student_id",
+    "target_table": "Highschooler",
+    "target_column": "ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "Likes",
+    "source_column": "student_id",
+    "target_table": "Highschooler",
+    "target_column": "ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "Likes",
+    "source_column": "liked_id",
+    "target_table": "Highschooler",
+    "target_column": "ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  }
+]

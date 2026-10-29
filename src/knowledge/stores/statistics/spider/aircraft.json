@@ -1,0 +1,371 @@
+{
+  "pilot": {
+    "Pilot_Id": {
+      "distinct_count": 12,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 12
+    },
+    "Name": {
+      "distinct_count": 12,
+      "null_count": 0,
+      "sample_values": [
+        "Prof. Zackery Collins",
+        "Katheryn Gorczany IV",
+        "Mr. Cristian Halvorson II",
+        "Ayana Spencer",
+        "Ellen Ledner III"
+      ],
+      "min_value": "Ayana Spencer",
+      "max_value": "Winnifred Boyle"
+    },
+    "Age": {
+      "distinct_count": 9,
+      "null_count": 0,
+      "sample_values": [
+        23,
+        20,
+        25,
+        31,
+        37
+      ],
+      "min_value": 20,
+      "max_value": 37
+    }
+  },
+  "aircraft": {
+    "Aircraft_ID": {
+      "distinct_count": 5,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 5
+    },
+    "Aircraft": {
+      "distinct_count": 5,
+      "null_count": 0,
+      "sample_values": [
+        "Robinson R-22",
+        "Bell 206B3 JetRanger",
+        "CH-47D Chinook",
+        "Mil Mi-26",
+        "CH-53E Super Stallion"
+      ],
+      "min_value": "Bell 206B3 JetRanger",
+      "max_value": "Robinson R-22"
+    },
+    "Description": {
+      "distinct_count": 4,
+      "null_count": 0,
+      "sample_values": [
+        "Light utility helicopter",
+        "Turboshaft utility helicopter",
+        "Tandem rotor helicopter",
+        "Heavy-lift helicopter"
+      ],
+      "min_value": "Heavy-lift helicopter",
+      "max_value": "Turboshaft utility helicopter"
+    },
+    "Max_Gross_Weight": {
+      "distinct_count": 5,
+      "null_count": 0,
+      "sample_values": [
+        "1,370 lb (635 kg)",
+        "3,200 lb (1,451 kg)",
+        "50,000 lb (22,680 kg)",
+        "123,500 lb (56,000 kg)",
+        "73,500 lb (33,300 kg)"
+      ],
+      "min_value": "1,370 lb (635 kg)",
+      "max_value": "73,500 lb (33,300 kg)"
+    },
+    "Total_disk_area": {
+      "distinct_count": 5,
+      "null_count": 0,
+      "sample_values": [
+        "497 ft\u00b2 (46.2 m\u00b2)",
+        "872 ft\u00b2 (81.1 m\u00b2)",
+        "5,655 ft\u00b2 (526 m\u00b2)",
+        "8,495 ft\u00b2 (789 m\u00b2)",
+        "4,900 ft\u00b2 (460 m\u00b2)"
+      ],
+      "min_value": "4,900 ft\u00b2 (460 m\u00b2)",
+      "max_value": "872 ft\u00b2 (81.1 m\u00b2)"
+    },
+    "Max_disk_Loading": {
+      "distinct_count": 5,
+      "null_count": 0,
+      "sample_values": [
+        "2.6 lb/ft\u00b2 (14 kg/m\u00b2)",
+        "3.7 lb/ft\u00b2 (18 kg/m\u00b2)",
+        "8.8 lb/ft\u00b2 (43 kg/m\u00b2)",
+        "14.5 lb/ft\u00b2 (71 kg/m\u00b2)",
+        "15 lb/ft\u00b2 (72 kg/m\u00b2)"
+      ],
+      "min_value": "14.5 lb/ft\u00b2 (71 kg/m\u00b2)",
+      "max_value": "8.8 lb/ft\u00b2 (43 kg/m\u00b2)"
+    }
+  },
+  "match": {
+    "Round": {
+      "distinct_count": 7,
+      "null_count": 0,
+      "sample_values": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "min_value": 1.0,
+      "max_value": 7.0
+    },
+    "Location": {
+      "distinct_count": 7,
+      "null_count": 0,
+      "sample_values": [
+        "Mina' Zayid , Abu Dhabi",
+        "Swan River , Perth",
+        "Flamengo Beach , Rio de Janeiro",
+        "Windsor , Ontario",
+        "New York City"
+      ],
+      "min_value": "EuroSpeedway Lausitz",
+      "max_value": "Windsor , Ontario"
+    },
+    "Country": {
+      "distinct_count": 7,
+      "null_count": 0,
+      "sample_values": [
+        "United Arab Emirates",
+        "Australia",
+        "Brazil",
+        "Canada",
+        "United States"
+      ],
+      "min_value": "Australia",
+      "max_value": "United States"
+    },
+    "Date": {
+      "distinct_count": 7,
+      "null_count": 0,
+      "sample_values": [
+        "March 26\u201327",
+        "April 17\u201318",
+        "May 8\u20139",
+        "June 5\u20136",
+        "June 19\u201320"
+      ],
+      "min_value": "April 17\u201318",
+      "max_value": "May 8\u20139"
+    },
+    "Fastest_Qualifying": {
+      "distinct_count": 4,
+      "null_count": 0,
+      "sample_values": [
+        "Hannes Arch",
+        "Paul Bonhomme",
+        "Nigel Lamb",
+        "Cancelled"
+      ],
+      "min_value": "Cancelled",
+      "max_value": "Paul Bonhomme"
+    },
+    "Winning_Pilot": {
+      "distinct_count": 5,
+      "null_count": 0,
+      "sample_values": [
+        "1",
+        "4",
+        "6",
+        "9",
+        "2"
+      ],
+      "min_value": "1",
+      "max_value": "9"
+    },
+    "Winning_Aircraft": {
+      "distinct_count": 5,
+      "null_count": 0,
+      "sample_values": [
+        "1",
+        "2",
+        "4",
+        "3",
+        "5"
+      ],
+      "min_value": "1",
+      "max_value": "5"
+    }
+  },
+  "airport": {
+    "Airport_ID": {
+      "distinct_count": 10,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 10
+    },
+    "Airport_Name": {
+      "distinct_count": 10,
+      "null_count": 0,
+      "sample_values": [
+        "London Heathrow",
+        "London Gatwick",
+        "London Stansted",
+        "Manchester",
+        "London Luton"
+      ],
+      "min_value": "Birmingham Airport",
+      "max_value": "Manchester"
+    },
+    "Total_Passengers": {
+      "distinct_count": 10,
+      "null_count": 0,
+      "sample_values": [
+        67054745.0,
+        34205887.0,
+        22360364.0,
+        21219195.0,
+        10180734.0
+      ],
+      "min_value": 5620673.0,
+      "max_value": 67054745.0
+    },
+    "%_Change_2007": {
+      "distinct_count": 10,
+      "null_count": 0,
+      "sample_values": [
+        "1.5%",
+        "2.9%",
+        "6.0%",
+        "4.0%",
+        "2.6%"
+      ],
+      "min_value": "0.5%",
+      "max_value": "7.0%"
+    },
+    "International_Passengers": {
+      "distinct_count": 10,
+      "null_count": 0,
+      "sample_values": [
+        61344438.0,
+        30431051.0,
+        19996947.0,
+        18119230.0,
+        8853224.0
+      ],
+      "min_value": 3711140.0,
+      "max_value": 61344438.0
+    },
+    "Domestic_Passengers": {
+      "distinct_count": 10,
+      "null_count": 0,
+      "sample_values": [
+        5562516.0,
+        3730963.0,
+        2343428.0,
+        2943719.0,
+        1320678.0
+      ],
+      "min_value": 746094.0,
+      "max_value": 5562516.0
+    },
+    "Transit_Passengers": {
+      "distinct_count": 10,
+      "null_count": 0,
+      "sample_values": [
+        147791.0,
+        43873.0,
+        19989.0,
+        156246.0,
+        6832.0
+      ],
+      "min_value": 4395.0,
+      "max_value": 156246.0
+    },
+    "Aircraft_Movements": {
+      "distinct_count": 10,
+      "null_count": 0,
+      "sample_values": [
+        478693.0,
+        263653.0,
+        193282.0,
+        204610.0,
+        117859.0
+      ],
+      "min_value": 76517.0,
+      "max_value": 478693.0
+    },
+    "Freight_Metric_Tonnes": {
+      "distinct_count": 10,
+      "null_count": 0,
+      "sample_values": [
+        1397054.0,
+        107702.0,
+        197738.0,
+        141781.0,
+        40518.0
+      ],
+      "min_value": 3.0,
+      "max_value": 1397054.0
+    }
+  },
+  "airport_aircraft": {
+    "ID": {
+      "distinct_count": 4,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "min_value": 1,
+      "max_value": 4
+    },
+    "Airport_ID": {
+      "distinct_count": 4,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        6,
+        9
+      ],
+      "min_value": 1,
+      "max_value": 9
+    },
+    "Aircraft_ID": {
+      "distinct_count": 4,
+      "null_count": 0,
+      "sample_values": [
+        2,
+        1,
+        5,
+        3
+      ],
+      "min_value": 1,
+      "max_value": 5
+    }
+  }
+}

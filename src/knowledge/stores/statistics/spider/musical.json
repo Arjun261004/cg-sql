@@ -1,0 +1,161 @@
+{
+  "musical": {
+    "Musical_ID": {
+      "distinct_count": 7,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 7
+    },
+    "Name": {
+      "distinct_count": 7,
+      "null_count": 0,
+      "sample_values": [
+        "The Phantom of the Opera",
+        "Les Mis\u00e9rables",
+        "Wicked",
+        "West Side Story",
+        "Rent"
+      ],
+      "min_value": "Chicago",
+      "max_value": "Wicked"
+    },
+    "Year": {
+      "distinct_count": 1,
+      "null_count": 0,
+      "sample_values": [
+        1986
+      ],
+      "min_value": 1986,
+      "max_value": 1986
+    },
+    "Award": {
+      "distinct_count": 2,
+      "null_count": 0,
+      "sample_values": [
+        "Tony Award",
+        "Drama Desk Award"
+      ],
+      "min_value": "Drama Desk Award",
+      "max_value": "Tony Award"
+    },
+    "Category": {
+      "distinct_count": 7,
+      "null_count": 0,
+      "sample_values": [
+        "Best Book of a Musical",
+        "Best Performance by a Leading Actor in a Musical",
+        "Best Direction of a Musical",
+        "Best Choreography",
+        "Outstanding Actor in a Musical"
+      ],
+      "min_value": "Best Book of a Musical",
+      "max_value": "Outstanding Director of a Musical"
+    },
+    "Nominee": {
+      "distinct_count": 2,
+      "null_count": 0,
+      "sample_values": [
+        "Bob Fosse",
+        "Cleavant Derricks"
+      ],
+      "min_value": "Bob Fosse",
+      "max_value": "Cleavant Derricks"
+    },
+    "Result": {
+      "distinct_count": 2,
+      "null_count": 0,
+      "sample_values": [
+        "Nominated",
+        "Won"
+      ],
+      "min_value": "Nominated",
+      "max_value": "Won"
+    }
+  },
+  "actor": {
+    "Actor_ID": {
+      "distinct_count": 9,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 9
+    },
+    "Name": {
+      "distinct_count": 9,
+      "null_count": 0,
+      "sample_values": [
+        "Ray Meagher",
+        "Tom Oliver",
+        "Lynne McGranger",
+        "Kate Ritchie",
+        "Alan Fletcher"
+      ],
+      "min_value": "Alan Fletcher",
+      "max_value": "Tom Oliver"
+    },
+    "Musical_ID": {
+      "distinct_count": 4,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "min_value": 1,
+      "max_value": 6
+    },
+    "Character": {
+      "distinct_count": 9,
+      "null_count": 0,
+      "sample_values": [
+        "Alf Stewart",
+        "Lou Carpenter",
+        "Irene Roberts",
+        "Sally Fletcher",
+        "Karl Kennedy"
+      ],
+      "min_value": "Alf Stewart",
+      "max_value": "Toadfish Rebecchi"
+    },
+    "Duration": {
+      "distinct_count": 8,
+      "null_count": 0,
+      "sample_values": [
+        "1988\u2014",
+        "1988, 1992\u2014",
+        "1993\u2014",
+        "1988\u20132008, 2013",
+        "1994\u2014"
+      ],
+      "min_value": "1985\u20131992, 1993, 2004\u2014",
+      "max_value": "1995, 1996\u2014"
+    },
+    "age": {
+      "distinct_count": 6,
+      "null_count": 0,
+      "sample_values": [
+        26,
+        22,
+        21,
+        20,
+        18
+      ],
+      "min_value": 17,
+      "max_value": 26
+    }
+  }
+}

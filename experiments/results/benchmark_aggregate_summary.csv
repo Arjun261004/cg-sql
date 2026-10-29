@@ -1,0 +1,2 @@
+total_evaluated,initial_execution_accuracy_pct,final_execution_accuracy_pct,net_accuracy_gain_pct,exact_match_pct,parse_validity_pct,execution_success_pct,repaired_queries_count,newly_repaired_count,mis_repairs_count,mis_repair_rate_pct,mean_latency_ms,median_latency_ms,p95_latency_ms
+25,64.0,68.0,4.0,52.0,100.0,92.0,3,1,0,0.0,13897.61,6528.36,72406.9

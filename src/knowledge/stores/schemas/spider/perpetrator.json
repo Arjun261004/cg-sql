@@ -1,0 +1,128 @@
+{
+  "database_id": "perpetrator",
+  "tables": {
+    "perpetrator": {
+      "name": "perpetrator",
+      "columns": {
+        "Perpetrator_ID": {
+          "name": "Perpetrator_ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "People_ID": {
+          "name": "People_ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Date": {
+          "name": "Date",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Year": {
+          "name": "Year",
+          "type": "REAL",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Location": {
+          "name": "Location",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Country": {
+          "name": "Country",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Killed": {
+          "name": "Killed",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Injured": {
+          "name": "Injured",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "Perpetrator_ID"
+      ],
+      "foreign_keys": [
+        {
+          "column": "People_ID",
+          "target_table": "people",
+          "target_column": "People_ID"
+        }
+      ]
+    },
+    "people": {
+      "name": "people",
+      "columns": {
+        "People_ID": {
+          "name": "People_ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Name": {
+          "name": "Name",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Height": {
+          "name": "Height",
+          "type": "REAL",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Weight": {
+          "name": "Weight",
+          "type": "REAL",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Home Town": {
+          "name": "Home Town",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "People_ID"
+      ],
+      "foreign_keys": []
+    }
+  },
+  "provenance": {
+    "source": "spider_ingestor",
+    "database_id": "perpetrator",
+    "table": null,
+    "column": null,
+    "source_file": null,
+    "timestamp": "20480_1537759644.0"
+  }
+}

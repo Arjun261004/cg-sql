@@ -1,0 +1,52 @@
+[
+  {
+    "configuration": "Full CG-SQL (Proposed)",
+    "sample_size": 10,
+    "execution_accuracy_pct": 80.0,
+    "exact_match_pct": 60.0,
+    "repaired_queries": 1,
+    "mis_repair_rate_pct": 0.0,
+    "median_latency_ms": 8395.68,
+    "mean_latency_ms": 20435.29
+  },
+  {
+    "configuration": "w/o Backward Expressibility Validation",
+    "sample_size": 10,
+    "execution_accuracy_pct": 70.0,
+    "exact_match_pct": 60.0,
+    "repaired_queries": 1,
+    "mis_repair_rate_pct": 0.0,
+    "median_latency_ms": 13222.02,
+    "mean_latency_ms": 21261.65
+  },
+  {
+    "configuration": "w/o Schema Pruning (Full Schema Only)",
+    "sample_size": 10,
+    "execution_accuracy_pct": 80.0,
+    "exact_match_pct": 60.0,
+    "repaired_queries": 1,
+    "mis_repair_rate_pct": 0.0,
+    "median_latency_ms": 3962.52,
+    "mean_latency_ms": 14487.08
+  },
+  {
+    "configuration": "w/o MapleDoctor Repair",
+    "sample_size": 10,
+    "execution_accuracy_pct": 70.0,
+    "exact_match_pct": 60.0,
+    "repaired_queries": 0,
+    "mis_repair_rate_pct": 0.0,
+    "median_latency_ms": 2934.37,
+    "mean_latency_ms": 11062.31
+  },
+  {
+    "configuration": "w/o Risk-Based Selection (Greedy)",
+    "sample_size": 10,
+    "execution_accuracy_pct": 80.0,
+    "exact_match_pct": 60.0,
+    "repaired_queries": 1,
+    "mis_repair_rate_pct": 0.0,
+    "median_latency_ms": 3319.68,
+    "mean_latency_ms": 10658.12
+  }
+]

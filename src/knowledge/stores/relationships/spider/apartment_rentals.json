@@ -1,0 +1,56 @@
+[
+  {
+    "source_table": "Apartments",
+    "source_column": "building_id",
+    "target_table": "Apartment_Buildings",
+    "target_column": "building_id",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "Apartment_Facilities",
+    "source_column": "apt_id",
+    "target_table": "Apartments",
+    "target_column": "apt_id",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "Apartment_Bookings",
+    "source_column": "guest_id",
+    "target_table": "Guests",
+    "target_column": "guest_id",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "Apartment_Bookings",
+    "source_column": "apt_id",
+    "target_table": "Apartments",
+    "target_column": "apt_id",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "View_Unit_Status",
+    "source_column": "apt_booking_id",
+    "target_table": "Apartment_Bookings",
+    "target_column": "apt_booking_id",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "View_Unit_Status",
+    "source_column": "apt_id",
+    "target_table": "Apartments",
+    "target_column": "apt_id",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  }
+]

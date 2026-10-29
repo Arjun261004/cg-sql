@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: #ffffff;">
+<!-- Background & Grid -->
+<rect width="720" height="420" fill="#ffffff"/>
+<text x="70" y="30" font-size="16" font-weight="700" fill="#0f172a">Figure 5: Schema Expressibility Threshold Sensitivity Analysis</text>
+<text x="70" y="45" font-size="12" fill="#64748b">Empirical trade-off between Precision, Recall, and F1 across decision thresholds tau in [0.10, 0.90]</text>
+<line x1="70" y1="360.0" x2="580" y2="360.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4"/>
+<text x="58" y="364.0" font-size="11" fill="#64748b" text-anchor="end">0.0</text>
+<line x1="70" y1="298.0" x2="580" y2="298.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4"/>
+<text x="58" y="302.0" font-size="11" fill="#64748b" text-anchor="end">0.2</text>
+<line x1="70" y1="236.0" x2="580" y2="236.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4"/>
+<text x="58" y="240.0" font-size="11" fill="#64748b" text-anchor="end">0.4</text>
+<line x1="70" y1="174.0" x2="580" y2="174.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4"/>
+<text x="58" y="178.0" font-size="11" fill="#64748b" text-anchor="end">0.6</text>
+<line x1="70" y1="111.99999999999999" x2="580" y2="111.99999999999999" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4"/>
+<text x="58" y="115.99999999999999" font-size="11" fill="#64748b" text-anchor="end">0.8</text>
+<line x1="70" y1="50.0" x2="580" y2="50.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4"/>
+<text x="58" y="54.0" font-size="11" fill="#64748b" text-anchor="end">1.0</text>
+<line x1="70.0" y1="360" x2="70.0" y2="366" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="70.0" y="382" font-size="11" fill="#475569" text-anchor="middle">0.10</text>
+<line x1="133.75" y1="360" x2="133.75" y2="366" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="133.75" y="382" font-size="11" fill="#475569" text-anchor="middle">0.20</text>
+<line x1="197.5" y1="360" x2="197.5" y2="366" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="197.5" y="382" font-size="11" fill="#475569" text-anchor="middle">0.30</text>
+<line x1="261.25" y1="360" x2="261.25" y2="366" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="261.25" y="382" font-size="11" fill="#475569" text-anchor="middle">0.40</text>
+<line x1="325.0" y1="360" x2="325.0" y2="366" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="325.0" y="382" font-size="11" fill="#475569" text-anchor="middle">0.50</text>
+<line x1="388.75" y1="360" x2="388.75" y2="366" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="388.75" y="382" font-size="11" fill="#475569" text-anchor="middle">0.60</text>
+<line x1="452.49999999999994" y1="360" x2="452.49999999999994" y2="366" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="452.49999999999994" y="382" font-size="11" fill="#475569" text-anchor="middle">0.70</text>
+<line x1="516.25" y1="360" x2="516.25" y2="366" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="516.25" y="382" font-size="11" fill="#475569" text-anchor="middle">0.80</text>
+<line x1="580.0" y1="360" x2="580.0" y2="366" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="580.0" y="382" font-size="11" fill="#475569" text-anchor="middle">0.90</text>
+<text x="325.0" y="405" font-size="13" font-weight="600" fill="#1e293b" text-anchor="middle">Expressibility Threshold (tau)</text>
+<text transform="rotate(-90)" x="-205.0" y="25" font-size="13" font-weight="600" fill="#1e293b" text-anchor="middle">Score / Rate</text>
+<line x1="325.0" y1="50" x2="325.0" y2="360" stroke="#0ea5e9" stroke-width="1.5" stroke-dasharray="3,3"/>
+<rect x="285.0" y="58" width="80" height="20" rx="4" fill="#e0f2fe" stroke="#38bdf8" stroke-width="1"/>
+<text x="325.0" y="72" font-size="10" font-weight="700" fill="#0369a1" text-anchor="middle">Default tau = 0.50</text>
+<path d="M 70.00,138.57 L 133.75,118.88 L 197.50,118.88 L 261.25,112.00 L 325.00,112.00 L 388.75,127.50 L 452.50,138.57 L 516.25,138.57 L 580.00,143.00" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="70.00" cy="138.57" r="4" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="133.75" cy="118.88" r="4" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="197.50" cy="118.88" r="4" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="261.25" cy="112.00" r="4" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="325.00" cy="112.00" r="4" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="388.75" cy="127.50" r="4" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="452.50" cy="138.57" r="4" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="516.25" cy="138.57" r="4" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="580.00" cy="143.00" r="4" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<path d="M 70.00,256.68 L 133.75,215.32 L 197.50,215.32 L 261.25,194.68 L 325.00,194.68 L 388.75,174.00 L 452.50,153.32 L 516.25,153.32 L 580.00,70.68" fill="none" stroke="#16a34a" stroke-width="2.5"/>
+<circle cx="70.00" cy="256.68" r="4" fill="#16a34a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="133.75" cy="215.32" r="4" fill="#16a34a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="197.50" cy="215.32" r="4" fill="#16a34a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="261.25" cy="194.68" r="4" fill="#16a34a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="325.00" cy="194.68" r="4" fill="#16a34a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="388.75" cy="174.00" r="4" fill="#16a34a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="452.50" cy="153.32" r="4" fill="#16a34a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="516.25" cy="153.32" r="4" fill="#16a34a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="580.00" cy="70.68" r="4" fill="#16a34a" stroke="#ffffff" stroke-width="1.5"/>
+<path d="M 70.00,219.10 L 133.75,179.18 L 197.50,179.18 L 261.25,161.60 L 325.00,161.60 L 388.75,153.32 L 452.50,146.19 L 516.25,146.19 L 580.00,112.00" fill="none" stroke="#d97706" stroke-width="2.5"/>
+<circle cx="70.00" cy="219.10" r="4" fill="#d97706" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="133.75" cy="179.18" r="4" fill="#d97706" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="197.50" cy="179.18" r="4" fill="#d97706" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="261.25" cy="161.60" r="4" fill="#d97706" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="325.00" cy="161.60" r="4" fill="#d97706" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="388.75" cy="153.32" r="4" fill="#d97706" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="452.50" cy="146.19" r="4" fill="#d97706" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="516.25" cy="146.19" r="4" fill="#d97706" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="580.00" cy="112.00" r="4" fill="#d97706" stroke="#ffffff" stroke-width="1.5"/>
+<path d="M 70.00,318.68 L 133.75,318.68 L 197.50,318.68 L 261.25,318.68 L 325.00,318.68 L 388.75,298.00 L 452.50,277.32 L 516.25,277.32 L 580.00,236.00" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="5,3"/>
+<circle cx="70.00" cy="318.68" r="4" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="133.75" cy="318.68" r="4" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="197.50" cy="318.68" r="4" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="261.25" cy="318.68" r="4" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="325.00" cy="318.68" r="4" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="388.75" cy="298.00" r="4" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="452.50" cy="277.32" r="4" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="516.25" cy="277.32" r="4" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="580.00" cy="236.00" r="4" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<line x1="595" y1="70" x2="619" y2="70" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="607" cy="70" r="3.5" fill="#2563eb"/>
+<text x="627" y="74" font-size="11" font-weight="500" fill="#334155">Precision</text>
+<line x1="595" y1="96" x2="619" y2="96" stroke="#16a34a" stroke-width="2.5"/>
+<circle cx="607" cy="96" r="3.5" fill="#16a34a"/>
+<text x="627" y="100" font-size="11" font-weight="500" fill="#334155">Recall</text>
+<line x1="595" y1="122" x2="619" y2="122" stroke="#d97706" stroke-width="2.5"/>
+<circle cx="607" cy="122" r="3.5" fill="#d97706"/>
+<text x="627" y="126" font-size="11" font-weight="500" fill="#334155">F1-Score</text>
+<line x1="595" y1="148" x2="619" y2="148" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="5,3"/>
+<circle cx="607" cy="148" r="3.5" fill="#dc2626"/>
+<text x="627" y="152" font-size="11" font-weight="500" fill="#334155">False Pos. Rate</text>
+</svg>

@@ -1,0 +1,20 @@
+[
+  {
+    "source_table": "visit",
+    "source_column": "visitor_ID",
+    "target_table": "visitor",
+    "target_column": "ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "visit",
+    "source_column": "Museum_ID",
+    "target_table": "museum",
+    "target_column": "Museum_ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  }
+]

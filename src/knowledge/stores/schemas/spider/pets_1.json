@@ -1,0 +1,147 @@
+{
+  "database_id": "pets_1",
+  "tables": {
+    "Student": {
+      "name": "Student",
+      "columns": {
+        "StuID": {
+          "name": "StuID",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "LName": {
+          "name": "LName",
+          "type": "VARCHAR(12)",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Fname": {
+          "name": "Fname",
+          "type": "VARCHAR(12)",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Age": {
+          "name": "Age",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Sex": {
+          "name": "Sex",
+          "type": "VARCHAR(1)",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Major": {
+          "name": "Major",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Advisor": {
+          "name": "Advisor",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "city_code": {
+          "name": "city_code",
+          "type": "VARCHAR(3)",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "StuID"
+      ],
+      "foreign_keys": []
+    },
+    "Has_Pet": {
+      "name": "Has_Pet",
+      "columns": {
+        "StuID": {
+          "name": "StuID",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "PetID": {
+          "name": "PetID",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [],
+      "foreign_keys": [
+        {
+          "column": "StuID",
+          "target_table": "Student",
+          "target_column": "StuID"
+        },
+        {
+          "column": "PetID",
+          "target_table": "Pets",
+          "target_column": "PetID"
+        }
+      ]
+    },
+    "Pets": {
+      "name": "Pets",
+      "columns": {
+        "PetID": {
+          "name": "PetID",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "PetType": {
+          "name": "PetType",
+          "type": "VARCHAR(20)",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "pet_age": {
+          "name": "pet_age",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "weight": {
+          "name": "weight",
+          "type": "REAL",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "PetID"
+      ],
+      "foreign_keys": []
+    }
+  },
+  "provenance": {
+    "source": "spider_ingestor",
+    "database_id": "pets_1",
+    "table": null,
+    "column": null,
+    "source_file": null,
+    "timestamp": "16384_1537759646.0"
+  }
+}

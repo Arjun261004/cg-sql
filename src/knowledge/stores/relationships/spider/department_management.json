@@ -1,0 +1,20 @@
+[
+  {
+    "source_table": "management",
+    "source_column": "head_ID",
+    "target_table": "head",
+    "target_column": "head_ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "management",
+    "source_column": "department_ID",
+    "target_table": "department",
+    "target_column": "Department_ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  }
+]

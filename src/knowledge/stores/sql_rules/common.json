@@ -1,0 +1,20 @@
+[
+  {
+    "category": "safety",
+    "pattern": "DELETE FROM|DROP TABLE|UPDATE ",
+    "description": "Mutating queries are not permitted in CG-SQL.",
+    "severity": "error"
+  },
+  {
+    "category": "aggregation",
+    "pattern": "SELECT [a-zA-Z0-9_]+(, [a-zA-Z0-9_]+)*, COUNT\\(.*\\) FROM [a-zA-Z0-9_]+(?!.*GROUP BY)",
+    "description": "Mixing aggregate functions with non-aggregate columns requires a GROUP BY clause.",
+    "severity": "error"
+  },
+  {
+    "category": "join",
+    "pattern": "FROM [a-zA-Z0-9_]+, [a-zA-Z0-9_]+(?!.*WHERE)",
+    "description": "Cartesian product detected. Comma-separated tables without a WHERE clause can cause explosive fan-out.",
+    "severity": "warning"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "source_table": "Authorship",
+    "source_column": "paperID",
+    "target_table": "Papers",
+    "target_column": "paperID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "Authorship",
+    "source_column": "instID",
+    "target_table": "Inst",
+    "target_column": "instID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "Authorship",
+    "source_column": "authID",
+    "target_table": "Authors",
+    "target_column": "authID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "Highschooler": {
+    "ID": {
+      "distinct_count": 16,
+      "null_count": 0,
+      "sample_values": [
+        1025,
+        1101,
+        1247,
+        1304,
+        1316
+      ],
+      "min_value": 1025,
+      "max_value": 1934
+    },
+    "name": {
+      "distinct_count": 14,
+      "null_count": 0,
+      "sample_values": [
+        "Jordan",
+        "Gabriel",
+        "Tiffany",
+        "Cassandra",
+        "Haley"
+      ],
+      "min_value": "Alexis",
+      "max_value": "Tiffany"
+    },
+    "grade": {
+      "distinct_count": 4,
+      "null_count": 0,
+      "sample_values": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "min_value": 9,
+      "max_value": 12
+    }
+  },
+  "Friend": {
+    "student_id": {
+      "distinct_count": 14,
+      "null_count": 0,
+      "sample_values": [
+        1101,
+        1247,
+        1304,
+        1316,
+        1381
+      ],
+      "min_value": 1101,
+      "max_value": 1934
+    },
+    "friend_id": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        1381,
+        1689,
+        1709,
+        1247,
+        1782
+      ],
+      "min_value": 1025,
+      "max_value": 1934
+    }
+  },
+  "Likes": {
+    "student_id": {
+      "distinct_count": 10,
+      "null_count": 0,
+      "sample_values": [
+        1025,
+        1247,
+        1316,
+        1501,
+        1641
+      ],
+      "min_value": 1025,
+      "max_value": 1934
+    },
+    "liked_id": {
+      "distinct_count": 8,
+      "null_count": 0,
+      "sample_values": [
+        1709,
+        1689,
+        1247,
+        1468,
+        1304
+      ],
+      "min_value": 1101,
+      "max_value": 1934
+    }
+  }
+}

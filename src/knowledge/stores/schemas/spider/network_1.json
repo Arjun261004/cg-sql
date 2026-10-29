@@ -1,0 +1,113 @@
+{
+  "database_id": "network_1",
+  "tables": {
+    "Highschooler": {
+      "name": "Highschooler",
+      "columns": {
+        "ID": {
+          "name": "ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "name": {
+          "name": "name",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "grade": {
+          "name": "grade",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "ID"
+      ],
+      "foreign_keys": []
+    },
+    "Friend": {
+      "name": "Friend",
+      "columns": {
+        "student_id": {
+          "name": "student_id",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "friend_id": {
+          "name": "friend_id",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "student_id",
+        "friend_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "friend_id",
+          "target_table": "Highschooler",
+          "target_column": "ID"
+        },
+        {
+          "column": "student_id",
+          "target_table": "Highschooler",
+          "target_column": "ID"
+        }
+      ]
+    },
+    "Likes": {
+      "name": "Likes",
+      "columns": {
+        "student_id": {
+          "name": "student_id",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "liked_id": {
+          "name": "liked_id",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "student_id",
+        "liked_id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "student_id",
+          "target_table": "Highschooler",
+          "target_column": "ID"
+        },
+        {
+          "column": "liked_id",
+          "target_table": "Highschooler",
+          "target_column": "ID"
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "source": "spider_ingestor",
+    "database_id": "network_1",
+    "table": null,
+    "column": null,
+    "source_file": null,
+    "timestamp": "28672_1537759650.0"
+  }
+}

@@ -1,0 +1,31 @@
+id,database,query,is_expressible,confidence,unmatched_count,unmatched_concepts,selected_tables,latency_ms
+V01,department_management,How many departments have a budget greater than 500000?,True,1.0,0,[],['department'],7.15
+V02,department_management,Which department has the highest budget in 2025?,True,0.667,1,['year'],"['department', 'management']",1581.58
+V03,department_management,Show the names and ages of all department heads.,True,1.0,0,[],"['department', 'head', 'management']",781.44
+V04,department_management,List all departments along with the name of their head manager.,True,1.0,0,[],"['head', 'department', 'management']",1013.39
+V05,department_management,Find the average ranking of departments created after 1990.,True,0.8,1,['year'],"['department', 'head']",959.03
+V06,concert_singer,How many singers do we have?,True,1.0,0,[],"['stadium', 'singer', 'concert']",918.59
+V07,concert_singer,"What is the average, minimum, and maximum age of all singers from France?",True,1.0,0,[],"['stadium', 'singer']",1006.98
+V08,concert_singer,Show names of stadiums with capacity between 5000 and 10000.,True,1.0,0,[],"['stadium', 'singer', 'concert']",1191.71
+V09,concert_singer,List singers and the concerts they performed in.,True,1.0,0,[],"['stadium', 'singer', 'concert']",1704.08
+V10,aircraft,Show all pilots of age between 30 and 40.,True,1.0,0,[],['pilot'],2.39
+V11,aircraft,List aircraft models and their manufacturers.,True,0.667,0,[],"['aircraft', 'airport_aircraft', 'match', 'airport']",967.1
+V12,flight_2,Find all flights departing from New York.,True,1.0,0,[],['flights'],42.54
+V13,flight_2,What is the distance of flight 101?,True,0.5,0,[],"['airports', 'flights']",973.05
+V14,pets_1,How many dogs are registered in the clinic?,True,0.85,0,[],"['Student', 'Has_Pet', 'Pets']",950.96
+V15,pets_1,Find pet owners living in California.,True,0.85,0,[],"['Has_Pet', 'Pets']",854.21
+M01,aircraft,Show all students enrolled in course science.,False,0.1,2,"['students', 'course']","['pilot', 'aircraft', 'match']",1527.43
+M02,department_management,List all customer credit card transactions for October.,False,0.1,1,['customer'],"['department', 'head', 'management']",996.76
+M03,department_management,Find employee salaries and bonus percentages.,False,0.667,0,[],['head'],0.5
+M04,concert_singer,What is the fuel consumption and flight speed of each aircraft?,False,0.1,2,"['flight', 'aircraft']","['stadium', 'singer', 'concert']",926.5
+M05,concert_singer,Show patient blood pressure readings and medical history.,False,0.85,0,[],"['stadium', 'singer', 'concert']",838.66
+M06,aircraft,Which professor has published the most papers?,False,0.85,0,[],"['pilot', 'aircraft', 'match']",43350.32
+M07,flight_2,Show hotel reservations and room night rates for customers.,False,0.1,1,['customers'],"['airports', 'flights']",1547.02
+M08,pets_1,List stock prices and dividend yields for technology equities.,False,0.5,0,[],"['Student', 'Has_Pet', 'Pets']",986.67
+M09,department_management,Show delivery tracking numbers and courier transit status.,False,0.1,0,[],"['department', 'head', 'management']",1824.7
+M10,concert_singer,Find the student grade point average in computer science.,False,0.75,1,['student'],"['stadium', 'singer']",1306.16
+M11,aircraft,List all restaurant menu items and prices.,False,0.1,0,[],"['pilot', 'aircraft', 'match']",876.86
+M12,flight_2,What is the mortgage interest rate for residential borrowers?,False,0.333,0,[],"['airports', 'flights']",968.4
+M13,pets_1,Show vehicle engine displacement and horsepower ratings.,False,0.85,0,[],"['Student', 'Has_Pet', 'Pets']",765.64
+M14,department_management,"Find the weather forecast, wind speed, and humidity for tomorrow.",False,1.0,0,[],"['department', 'head', 'management']",923.6
+M15,concert_singer,Show inventory stock levels and warehouse reorder quantities.,False,0.85,0,[],"['stadium', 'singer', 'concert']",1060.34

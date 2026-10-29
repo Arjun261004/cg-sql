@@ -1,0 +1,173 @@
+{
+  "Student": {
+    "StuID": {
+      "distinct_count": 34,
+      "null_count": 0,
+      "sample_values": [
+        1001,
+        1002,
+        1003,
+        1004,
+        1005
+      ],
+      "min_value": 1001,
+      "max_value": 1035
+    },
+    "LName": {
+      "distinct_count": 31,
+      "null_count": 0,
+      "sample_values": [
+        "Smith",
+        "Kim",
+        "Jones",
+        "Kumar",
+        "Gompers"
+      ],
+      "min_value": "Adams",
+      "max_value": "Woods"
+    },
+    "Fname": {
+      "distinct_count": 24,
+      "null_count": 0,
+      "sample_values": [
+        "Linda",
+        "Tracy",
+        "Shiela",
+        "Dinesh",
+        "Paul"
+      ],
+      "min_value": "Andy",
+      "max_value": "William"
+    },
+    "Age": {
+      "distinct_count": 9,
+      "null_count": 0,
+      "sample_values": [
+        18,
+        19,
+        21,
+        20,
+        26
+      ],
+      "min_value": 16,
+      "max_value": 27
+    },
+    "Sex": {
+      "distinct_count": 2,
+      "null_count": 0,
+      "sample_values": [
+        "F",
+        "M"
+      ],
+      "min_value": "F",
+      "max_value": "M"
+    },
+    "Major": {
+      "distinct_count": 6,
+      "null_count": 0,
+      "sample_values": [
+        600,
+        520,
+        540,
+        550,
+        100
+      ],
+      "min_value": 50,
+      "max_value": 600
+    },
+    "Advisor": {
+      "distinct_count": 18,
+      "null_count": 0,
+      "sample_values": [
+        1121,
+        7712,
+        7792,
+        8423,
+        1148
+      ],
+      "min_value": 1121,
+      "max_value": 9172
+    },
+    "city_code": {
+      "distinct_count": 19,
+      "null_count": 0,
+      "sample_values": [
+        "BAL",
+        "HKG",
+        "WAS",
+        "CHI",
+        "YYZ"
+      ],
+      "min_value": "ATL",
+      "max_value": "YYZ"
+    }
+  },
+  "Has_Pet": {
+    "StuID": {
+      "distinct_count": 2,
+      "null_count": 0,
+      "sample_values": [
+        1001,
+        1002
+      ],
+      "min_value": 1001,
+      "max_value": 1002
+    },
+    "PetID": {
+      "distinct_count": 3,
+      "null_count": 0,
+      "sample_values": [
+        2001,
+        2002,
+        2003
+      ],
+      "min_value": 2001,
+      "max_value": 2003
+    }
+  },
+  "Pets": {
+    "PetID": {
+      "distinct_count": 3,
+      "null_count": 0,
+      "sample_values": [
+        2001,
+        2002,
+        2003
+      ],
+      "min_value": 2001,
+      "max_value": 2003
+    },
+    "PetType": {
+      "distinct_count": 2,
+      "null_count": 0,
+      "sample_values": [
+        "cat",
+        "dog"
+      ],
+      "min_value": "cat",
+      "max_value": "dog"
+    },
+    "pet_age": {
+      "distinct_count": 3,
+      "null_count": 0,
+      "sample_values": [
+        3,
+        2,
+        1
+      ],
+      "min_value": 1,
+      "max_value": 3
+    },
+    "weight": {
+      "distinct_count": 3,
+      "null_count": 0,
+      "sample_values": [
+        12.0,
+        13.4,
+        9.3
+      ],
+      "min_value": 9.3,
+      "max_value": 13.4
+    }
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "airport": {
+    "id": {
+      "distinct_count": 9,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 9
+    },
+    "City": {
+      "distinct_count": 9,
+      "null_count": 0,
+      "sample_values": [
+        "Akureyri",
+        "Amsterdam",
+        "Anchorage",
+        "Baltimore",
+        "Barcelona"
+      ],
+      "min_value": "Akureyri",
+      "max_value": "Brussels"
+    },
+    "Country": {
+      "distinct_count": 7,
+      "null_count": 0,
+      "sample_values": [
+        "Iceland",
+        "Netherlands",
+        "United States",
+        "Spain",
+        "Norway"
+      ],
+      "min_value": "Belgium",
+      "max_value": "United States"
+    },
+    "IATA": {
+      "distinct_count": 9,
+      "null_count": 0,
+      "sample_values": [
+        "AEY",
+        "AMS",
+        "ANC",
+        "BWI",
+        "BCN"
+      ],
+      "min_value": "AEY",
+      "max_value": "BWI"
+    },
+    "ICAO": {
+      "distinct_count": 9,
+      "null_count": 0,
+      "sample_values": [
+        "BIAR",
+        "EHAM",
+        "PANC",
+        "KBWI",
+        "LEBL"
+      ],
+      "min_value": "BIAR",
+      "max_value": "PANC"
+    },
+    "name": {
+      "distinct_count": 9,
+      "null_count": 0,
+      "sample_values": [
+        "Akureyri Airport",
+        "Schiphol Airport",
+        "Ted Stevens Airport",
+        "Baltimore-Washington Airport",
+        "El Prat Airport"
+      ],
+      "min_value": "Akureyri Airport",
+      "max_value": "Ted Stevens Airport"
+    }
+  },
+  "operate_company": {
+    "id": {
+      "distinct_count": 14,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 14
+    },
+    "name": {
+      "distinct_count": 14,
+      "null_count": 0,
+      "sample_values": [
+        "Air China",
+        "Air China Cargo",
+        "Air Hong Kong",
+        "Dragonair",
+        "Cathay Pacific Cargo"
+      ],
+      "min_value": "Air China",
+      "max_value": "Vogue Laundry Service Limited"
+    },
+    "Type": {
+      "distinct_count": 3,
+      "null_count": 0,
+      "sample_values": [
+        "Corporate",
+        "Joint Venture",
+        "Subsidiary"
+      ],
+      "min_value": "Corporate",
+      "max_value": "Subsidiary"
+    },
+    "Principal_activities": {
+      "distinct_count": 7,
+      "null_count": 0,
+      "sample_values": [
+        "Airline",
+        "Cargo airline",
+        "Catering services",
+        "Cargo",
+        "Travel agency"
+      ],
+      "min_value": "Airline",
+      "max_value": "Travel agency"
+    },
+    "Incorporated_in": {
+      "distinct_count": 5,
+      "null_count": 0,
+      "sample_values": [
+        "China",
+        "Hong Kong",
+        "Taiwan",
+        "Vietnam",
+        "Canada"
+      ],
+      "min_value": "Canada",
+      "max_value": "Vietnam"
+    },
+    "Group_Equity_Shareholding": {
+      "distinct_count": 7,
+      "null_count": 0,
+      "sample_values": [
+        18.77,
+        49.0,
+        60.0,
+        100.0,
+        45.0
+      ],
+      "min_value": 18.77,
+      "max_value": 100.0
+    }
+  },
+  "flight": {
+    "id": {
+      "distinct_count": 13,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 13
+    },
+    "Vehicle_Flight_number": {
+      "distinct_count": 13,
+      "null_count": 0,
+      "sample_values": [
+        "M2-F1 #0",
+        "M2-F1 #1",
+        "M2-F1 #6",
+        "M2-F1 #13",
+        "M2-F1 #14"
+      ],
+      "min_value": "M2-F1 #0",
+      "max_value": "M2-F1 #73"
+    },
+    "Date": {
+      "distinct_count": 13,
+      "null_count": 0,
+      "sample_values": [
+        "March 1, 1963",
+        "August 16, 1963",
+        "September 3, 1963",
+        "October 25, 1963",
+        "November 8, 1963"
+      ],
+      "min_value": "August 16, 1963",
+      "max_value": "September 3, 1963"
+    },
+    "Pilot": {
+      "distinct_count": 2,
+      "null_count": 0,
+      "sample_values": [
+        "Thompson",
+        "Peterson"
+      ],
+      "min_value": "Peterson",
+      "max_value": "Thompson"
+    },
+    "Velocity": {
+      "distinct_count": 2,
+      "null_count": 0,
+      "sample_values": [
+        135.0,
+        240.0
+      ],
+      "min_value": 135.0,
+      "max_value": 240.0
+    },
+    "Altitude": {
+      "distinct_count": 2,
+      "null_count": 0,
+      "sample_values": [
+        0.0,
+        3650.0
+      ],
+      "min_value": 0.0,
+      "max_value": 3650.0
+    },
+    "airport_id": {
+      "distinct_count": 8,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 9
+    },
+    "company_id": {
+      "distinct_count": 10,
+      "null_count": 0,
+      "sample_values": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "min_value": 1,
+      "max_value": 13
+    }
+  }
+}

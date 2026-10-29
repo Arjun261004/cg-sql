@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 450" width="820" height="450" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #ffffff;">
+<rect width="820" height="450" fill="#ffffff"/>
+<text x="70" y="30" font-size="16" font-weight="700" fill="#0f172a">Figure 3: MapleDoctor Per-Rule Repair Effectiveness and Latency</text>
+<text x="70" y="46" font-size="12" fill="#64748b">Measured detection accuracy, repair success, and execution latency across Rules 1–11</text>
+<line x1="70" y1="340.0" x2="780" y2="340.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="60" y="344.0" font-size="11" fill="#64748b" text-anchor="end">0 ms</text>
+<line x1="70" y1="270.0" x2="780" y2="270.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="60" y="274.0" font-size="11" fill="#64748b" text-anchor="end">3 ms</text>
+<line x1="70" y1="200.0" x2="780" y2="200.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="60" y="204.0" font-size="11" fill="#64748b" text-anchor="end">6 ms</text>
+<line x1="70" y1="130.0" x2="780" y2="130.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="60" y="134.0" font-size="11" fill="#64748b" text-anchor="end">9 ms</text>
+<line x1="70" y1="60.0" x2="780" y2="60.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="60" y="64.0" font-size="11" fill="#64748b" text-anchor="end">12 ms</text>
+<text transform="rotate(-90)" x="-200.0" y="22" font-size="12" font-weight="600" fill="#1e293b" text-anchor="middle">Execution Latency (ms)</text>
+<rect x="78.19" y="96.40" width="38.23" height="243.60" rx="3" fill="#0d9488" opacity="0.9"/>
+<text x="97.31" y="91.40" font-size="10" font-weight="600" fill="#1e293b" text-anchor="middle">10.44ms</text>
+<text transform="rotate(35, 97.3076923076923, 352)" x="97.3076923076923" y="356" font-size="10" font-weight="500" fill="#334155" text-anchor="start">Rule 1a: Function Hallucina</text>
+<rect x="132.81" y="317.83" width="38.23" height="22.17" rx="3" fill="#0d9488" opacity="0.9"/>
+<text x="151.92" y="312.83" font-size="10" font-weight="600" fill="#1e293b" text-anchor="middle">0.95ms</text>
+<text transform="rotate(35, 151.9230769230769, 352)" x="151.9230769230769" y="356" font-size="10" font-weight="500" fill="#334155" text-anchor="start">Rule 1b: Function Hallucina</text>
+<rect x="187.42" y="307.57" width="38.23" height="32.43" rx="3" fill="#0d9488" opacity="0.9"/>
+<text x="206.54" y="302.57" font-size="10" font-weight="600" fill="#1e293b" text-anchor="middle">1.39ms</text>
+<text transform="rotate(35, 206.53846153846155, 352)" x="206.53846153846155" y="356" font-size="10" font-weight="500" fill="#334155" text-anchor="start">Rule 1c: Function Hallucina</text>
+<rect x="242.04" y="284.93" width="38.23" height="55.07" rx="3" fill="#0d9488" opacity="0.9"/>
+<text x="261.15" y="279.93" font-size="10" font-weight="600" fill="#1e293b" text-anchor="middle">2.36ms</text>
+<text transform="rotate(35, 261.15384615384613, 352)" x="261.15384615384613" y="356" font-size="10" font-weight="500" fill="#334155" text-anchor="start">Rule 2: Table-Column Misma</text>
+<rect x="296.65" y="288.90" width="38.23" height="51.10" rx="3" fill="#0d9488" opacity="0.9"/>
+<text x="315.77" y="283.90" font-size="10" font-weight="600" fill="#1e293b" text-anchor="middle">2.19ms</text>
+<text transform="rotate(35, 315.7692307692308, 352)" x="315.7692307692308" y="356" font-size="10" font-weight="500" fill="#334155" text-anchor="start">Rule 3: Unused Alias</text>
+<rect x="351.27" y="319.70" width="38.23" height="20.30" rx="3" fill="#0d9488" opacity="0.9"/>
+<text x="370.38" y="314.70" font-size="10" font-weight="600" fill="#1e293b" text-anchor="middle">0.87ms</text>
+<text transform="rotate(35, 370.3846153846154, 352)" x="370.3846153846154" y="356" font-size="10" font-weight="500" fill="#334155" text-anchor="start">Rule 4: Schema Hallucinati</text>
+<rect x="405.88" y="306.17" width="38.23" height="33.83" rx="3" fill="#0d9488" opacity="0.9"/>
+<text x="425.00" y="301.17" font-size="10" font-weight="600" fill="#1e293b" text-anchor="middle">1.45ms</text>
+<text transform="rotate(35, 425.0, 352)" x="425.0" y="356" font-size="10" font-weight="500" fill="#334155" text-anchor="start">Rule 5: Missing JOIN (FK P</text>
+<rect x="460.50" y="291.47" width="38.23" height="48.53" rx="3" fill="#0d9488" opacity="0.9"/>
+<text x="479.62" y="286.47" font-size="10" font-weight="600" fill="#1e293b" text-anchor="middle">2.08ms</text>
+<text transform="rotate(35, 479.6153846153846, 352)" x="479.6153846153846" y="356" font-size="10" font-weight="500" fill="#334155" text-anchor="start">Rule 6: Implicit Type Conv</text>
+<rect x="515.12" y="304.07" width="38.23" height="35.93" rx="3" fill="#0d9488" opacity="0.9"/>
+<text x="534.23" y="299.07" font-size="10" font-weight="600" fill="#1e293b" text-anchor="middle">1.54ms</text>
+<text transform="rotate(35, 534.2307692307692, 352)" x="534.2307692307692" y="356" font-size="10" font-weight="500" fill="#334155" text-anchor="start">Rule 7: = Instead of IN</text>
+<rect x="569.73" y="334.40" width="38.23" height="5.60" rx="3" fill="#0d9488" opacity="0.9"/>
+<text x="588.85" y="329.40" font-size="10" font-weight="600" fill="#1e293b" text-anchor="middle">0.24ms</text>
+<text transform="rotate(35, 588.8461538461538, 352)" x="588.8461538461538" y="356" font-size="10" font-weight="500" fill="#334155" text-anchor="start">Rule 8: Ascending Sort wit</text>
+<rect x="624.35" y="338.37" width="38.23" height="1.63" rx="3" fill="#0d9488" opacity="0.9"/>
+<text x="643.46" y="333.37" font-size="10" font-weight="600" fill="#1e293b" text-anchor="middle">0.07ms</text>
+<text transform="rotate(35, 643.4615384615385, 352)" x="643.4615384615385" y="356" font-size="10" font-weight="500" fill="#334155" text-anchor="start">Rule 9: Comparing Unrelate</text>
+<rect x="678.96" y="149.37" width="38.23" height="190.63" rx="3" fill="#f59e0b" opacity="0.9"/>
+<text x="698.08" y="144.37" font-size="10" font-weight="600" fill="#1e293b" text-anchor="middle">8.17ms</text>
+<text transform="rotate(35, 698.076923076923, 352)" x="698.076923076923" y="356" font-size="10" font-weight="500" fill="#334155" text-anchor="start">Rule 10: Violating Value Sp</text>
+<rect x="733.58" y="333.93" width="38.23" height="6.07" rx="3" fill="#f59e0b" opacity="0.9"/>
+<text x="752.69" y="328.93" font-size="10" font-weight="600" fill="#1e293b" text-anchor="middle">0.26ms</text>
+<text transform="rotate(35, 752.6923076923076, 352)" x="752.6923076923076" y="356" font-size="10" font-weight="500" fill="#334155" text-anchor="start">Rule 11: Aggregation/Compar</text>
+<rect x="500" y="25" width="14" height="14" rx="2" fill="#0d9488"/>
+<text x="520" y="36" font-size="11" fill="#334155">Rules 1–9: Deterministic AST (Sub-ms to 10ms)</text>
+<rect x="500" y="45" width="14" height="14" rx="2" fill="#f59e0b"/>
+<text x="520" y="56" font-size="11" fill="#334155">Rules 10–11: Constrained Fallback</text>
+</svg>

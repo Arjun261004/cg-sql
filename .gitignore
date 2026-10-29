@@ -1,0 +1,50 @@
+# Python
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Frontend / Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+frontend/.vite-temp/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Root level temporary databases/artifacts
+/aircraft
+/default
+*.log
+
+# Large raw benchmark dumps exceeding GitHub file size limits (100MB)
+spider_data/test_database/
+spider_data/database/soccer_1/
+spider_data/database/wta_1/
+spider_data/database/baseball_1/

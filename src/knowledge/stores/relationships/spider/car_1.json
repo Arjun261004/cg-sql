@@ -1,0 +1,47 @@
+[
+  {
+    "source_table": "countries",
+    "source_column": "Continent",
+    "target_table": "continents",
+    "target_column": "ContId",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "car_makers",
+    "source_column": "Country",
+    "target_table": "countries",
+    "target_column": "CountryId",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "model_list",
+    "source_column": "Maker",
+    "target_table": "car_makers",
+    "target_column": "Id",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "car_names",
+    "source_column": "Model",
+    "target_table": "model_list",
+    "target_column": "Model",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "cars_data",
+    "source_column": "Id",
+    "target_table": "car_names",
+    "target_column": "MakeId",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  }
+]

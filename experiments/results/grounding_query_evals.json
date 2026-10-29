@@ -1,0 +1,453 @@
+[
+  {
+    "id": "V01",
+    "database": "department_management",
+    "query": "How many departments have a budget greater than 500000?",
+    "is_expressible": true,
+    "confidence": 1.0,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "department"
+    ],
+    "latency_ms": 7.15
+  },
+  {
+    "id": "V02",
+    "database": "department_management",
+    "query": "Which department has the highest budget in 2025?",
+    "is_expressible": true,
+    "confidence": 0.667,
+    "unmatched_count": 1,
+    "unmatched_concepts": [
+      "year"
+    ],
+    "selected_tables": [
+      "department",
+      "management"
+    ],
+    "latency_ms": 1581.58
+  },
+  {
+    "id": "V03",
+    "database": "department_management",
+    "query": "Show the names and ages of all department heads.",
+    "is_expressible": true,
+    "confidence": 1.0,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "department",
+      "head",
+      "management"
+    ],
+    "latency_ms": 781.44
+  },
+  {
+    "id": "V04",
+    "database": "department_management",
+    "query": "List all departments along with the name of their head manager.",
+    "is_expressible": true,
+    "confidence": 1.0,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "head",
+      "department",
+      "management"
+    ],
+    "latency_ms": 1013.39
+  },
+  {
+    "id": "V05",
+    "database": "department_management",
+    "query": "Find the average ranking of departments created after 1990.",
+    "is_expressible": true,
+    "confidence": 0.8,
+    "unmatched_count": 1,
+    "unmatched_concepts": [
+      "year"
+    ],
+    "selected_tables": [
+      "department",
+      "head"
+    ],
+    "latency_ms": 959.03
+  },
+  {
+    "id": "V06",
+    "database": "concert_singer",
+    "query": "How many singers do we have?",
+    "is_expressible": true,
+    "confidence": 1.0,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "stadium",
+      "singer",
+      "concert"
+    ],
+    "latency_ms": 918.59
+  },
+  {
+    "id": "V07",
+    "database": "concert_singer",
+    "query": "What is the average, minimum, and maximum age of all singers from France?",
+    "is_expressible": true,
+    "confidence": 1.0,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "stadium",
+      "singer"
+    ],
+    "latency_ms": 1006.98
+  },
+  {
+    "id": "V08",
+    "database": "concert_singer",
+    "query": "Show names of stadiums with capacity between 5000 and 10000.",
+    "is_expressible": true,
+    "confidence": 1.0,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "stadium",
+      "singer",
+      "concert"
+    ],
+    "latency_ms": 1191.71
+  },
+  {
+    "id": "V09",
+    "database": "concert_singer",
+    "query": "List singers and the concerts they performed in.",
+    "is_expressible": true,
+    "confidence": 1.0,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "stadium",
+      "singer",
+      "concert"
+    ],
+    "latency_ms": 1704.08
+  },
+  {
+    "id": "V10",
+    "database": "aircraft",
+    "query": "Show all pilots of age between 30 and 40.",
+    "is_expressible": true,
+    "confidence": 1.0,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "pilot"
+    ],
+    "latency_ms": 2.39
+  },
+  {
+    "id": "V11",
+    "database": "aircraft",
+    "query": "List aircraft models and their manufacturers.",
+    "is_expressible": true,
+    "confidence": 0.667,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "aircraft",
+      "airport_aircraft",
+      "match",
+      "airport"
+    ],
+    "latency_ms": 967.1
+  },
+  {
+    "id": "V12",
+    "database": "flight_2",
+    "query": "Find all flights departing from New York.",
+    "is_expressible": true,
+    "confidence": 1.0,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "flights"
+    ],
+    "latency_ms": 42.54
+  },
+  {
+    "id": "V13",
+    "database": "flight_2",
+    "query": "What is the distance of flight 101?",
+    "is_expressible": true,
+    "confidence": 0.5,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "airports",
+      "flights"
+    ],
+    "latency_ms": 973.05
+  },
+  {
+    "id": "V14",
+    "database": "pets_1",
+    "query": "How many dogs are registered in the clinic?",
+    "is_expressible": true,
+    "confidence": 0.85,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "Student",
+      "Has_Pet",
+      "Pets"
+    ],
+    "latency_ms": 950.96
+  },
+  {
+    "id": "V15",
+    "database": "pets_1",
+    "query": "Find pet owners living in California.",
+    "is_expressible": true,
+    "confidence": 0.85,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "Has_Pet",
+      "Pets"
+    ],
+    "latency_ms": 854.21
+  },
+  {
+    "id": "M01",
+    "database": "aircraft",
+    "query": "Show all students enrolled in course science.",
+    "is_expressible": false,
+    "confidence": 0.1,
+    "unmatched_count": 2,
+    "unmatched_concepts": [
+      "students",
+      "course"
+    ],
+    "selected_tables": [
+      "pilot",
+      "aircraft",
+      "match"
+    ],
+    "latency_ms": 1527.43
+  },
+  {
+    "id": "M02",
+    "database": "department_management",
+    "query": "List all customer credit card transactions for October.",
+    "is_expressible": false,
+    "confidence": 0.1,
+    "unmatched_count": 1,
+    "unmatched_concepts": [
+      "customer"
+    ],
+    "selected_tables": [
+      "department",
+      "head",
+      "management"
+    ],
+    "latency_ms": 996.76
+  },
+  {
+    "id": "M03",
+    "database": "department_management",
+    "query": "Find employee salaries and bonus percentages.",
+    "is_expressible": false,
+    "confidence": 0.667,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "head"
+    ],
+    "latency_ms": 0.5
+  },
+  {
+    "id": "M04",
+    "database": "concert_singer",
+    "query": "What is the fuel consumption and flight speed of each aircraft?",
+    "is_expressible": false,
+    "confidence": 0.1,
+    "unmatched_count": 2,
+    "unmatched_concepts": [
+      "flight",
+      "aircraft"
+    ],
+    "selected_tables": [
+      "stadium",
+      "singer",
+      "concert"
+    ],
+    "latency_ms": 926.5
+  },
+  {
+    "id": "M05",
+    "database": "concert_singer",
+    "query": "Show patient blood pressure readings and medical history.",
+    "is_expressible": false,
+    "confidence": 0.85,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "stadium",
+      "singer",
+      "concert"
+    ],
+    "latency_ms": 838.66
+  },
+  {
+    "id": "M06",
+    "database": "aircraft",
+    "query": "Which professor has published the most papers?",
+    "is_expressible": false,
+    "confidence": 0.85,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "pilot",
+      "aircraft",
+      "match"
+    ],
+    "latency_ms": 43350.32
+  },
+  {
+    "id": "M07",
+    "database": "flight_2",
+    "query": "Show hotel reservations and room night rates for customers.",
+    "is_expressible": false,
+    "confidence": 0.1,
+    "unmatched_count": 1,
+    "unmatched_concepts": [
+      "customers"
+    ],
+    "selected_tables": [
+      "airports",
+      "flights"
+    ],
+    "latency_ms": 1547.02
+  },
+  {
+    "id": "M08",
+    "database": "pets_1",
+    "query": "List stock prices and dividend yields for technology equities.",
+    "is_expressible": false,
+    "confidence": 0.5,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "Student",
+      "Has_Pet",
+      "Pets"
+    ],
+    "latency_ms": 986.67
+  },
+  {
+    "id": "M09",
+    "database": "department_management",
+    "query": "Show delivery tracking numbers and courier transit status.",
+    "is_expressible": false,
+    "confidence": 0.1,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "department",
+      "head",
+      "management"
+    ],
+    "latency_ms": 1824.7
+  },
+  {
+    "id": "M10",
+    "database": "concert_singer",
+    "query": "Find the student grade point average in computer science.",
+    "is_expressible": false,
+    "confidence": 0.75,
+    "unmatched_count": 1,
+    "unmatched_concepts": [
+      "student"
+    ],
+    "selected_tables": [
+      "stadium",
+      "singer"
+    ],
+    "latency_ms": 1306.16
+  },
+  {
+    "id": "M11",
+    "database": "aircraft",
+    "query": "List all restaurant menu items and prices.",
+    "is_expressible": false,
+    "confidence": 0.1,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "pilot",
+      "aircraft",
+      "match"
+    ],
+    "latency_ms": 876.86
+  },
+  {
+    "id": "M12",
+    "database": "flight_2",
+    "query": "What is the mortgage interest rate for residential borrowers?",
+    "is_expressible": false,
+    "confidence": 0.333,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "airports",
+      "flights"
+    ],
+    "latency_ms": 968.4
+  },
+  {
+    "id": "M13",
+    "database": "pets_1",
+    "query": "Show vehicle engine displacement and horsepower ratings.",
+    "is_expressible": false,
+    "confidence": 0.85,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "Student",
+      "Has_Pet",
+      "Pets"
+    ],
+    "latency_ms": 765.64
+  },
+  {
+    "id": "M14",
+    "database": "department_management",
+    "query": "Find the weather forecast, wind speed, and humidity for tomorrow.",
+    "is_expressible": false,
+    "confidence": 1.0,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "department",
+      "head",
+      "management"
+    ],
+    "latency_ms": 923.6
+  },
+  {
+    "id": "M15",
+    "database": "concert_singer",
+    "query": "Show inventory stock levels and warehouse reorder quantities.",
+    "is_expressible": false,
+    "confidence": 0.85,
+    "unmatched_count": 0,
+    "unmatched_concepts": [],
+    "selected_tables": [
+      "stadium",
+      "singer",
+      "concert"
+    ],
+    "latency_ms": 1060.34
+  }
+]

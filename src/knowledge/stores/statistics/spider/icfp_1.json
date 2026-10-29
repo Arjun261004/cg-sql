@@ -1,0 +1,163 @@
+{
+  "Inst": {
+    "instID": {
+      "distinct_count": 8,
+      "null_count": 0,
+      "sample_values": [
+        1000,
+        1010,
+        1020,
+        1030,
+        1040
+      ],
+      "min_value": 1000,
+      "max_value": 1070
+    },
+    "name": {
+      "distinct_count": 8,
+      "null_count": 0,
+      "sample_values": [
+        "University of Oxford",
+        "Northeastern University",
+        "Indiana University",
+        "Google",
+        "Tohoku University"
+      ],
+      "min_value": "Google",
+      "max_value": "University of Pennsylvania"
+    },
+    "country": {
+      "distinct_count": 4,
+      "null_count": 0,
+      "sample_values": [
+        "UK",
+        "USA",
+        "Japan",
+        "France"
+      ],
+      "min_value": "France",
+      "max_value": "USA"
+    }
+  },
+  "Authors": {
+    "authID": {
+      "distinct_count": 13,
+      "null_count": 0,
+      "sample_values": [
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "min_value": 50,
+      "max_value": 62
+    },
+    "lname": {
+      "distinct_count": 13,
+      "null_count": 0,
+      "sample_values": [
+        "Gibbons",
+        "Hinze",
+        "James",
+        "Shivers",
+        "Turon"
+      ],
+      "min_value": "Ahmed",
+      "max_value": "Yorgey"
+    },
+    "fname": {
+      "distinct_count": 13,
+      "null_count": 0,
+      "sample_values": [
+        "Jeremy",
+        "Ralf",
+        "Daniel W. H.",
+        "Olin",
+        "Aaron"
+      ],
+      "min_value": "Aaron",
+      "max_value": "Tim"
+    }
+  },
+  "Papers": {
+    "paperID": {
+      "distinct_count": 7,
+      "null_count": 0,
+      "sample_values": [
+        200,
+        201,
+        202,
+        203,
+        204
+      ],
+      "min_value": 200,
+      "max_value": 206
+    },
+    "title": {
+      "distinct_count": 7,
+      "null_count": 0,
+      "sample_values": [
+        "Just do it: Simple Monadic Equational Reasoning",
+        "Proving the Unique Fixed-Point Principle Correct: An Adventure with Category Theory",
+        "Functional Pearl: Modular Rollback through Control Logging",
+        "An Equivalence-Preserving CPS Translation via Multi-Language Semantics",
+        "Making Standard ML a Practical Database Programming Language"
+      ],
+      "min_value": "An Equivalence-Preserving CPS Translation via Multi-Language Semantics",
+      "max_value": "Proving the Unique Fixed-Point Principle Correct: An Adventure with Category Theory"
+    }
+  },
+  "Authorship": {
+    "authID": {
+      "distinct_count": 13,
+      "null_count": 0,
+      "sample_values": [
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "min_value": 50,
+      "max_value": 62
+    },
+    "instID": {
+      "distinct_count": 8,
+      "null_count": 0,
+      "sample_values": [
+        1000,
+        1010,
+        1020,
+        1030,
+        1040
+      ],
+      "min_value": 1000,
+      "max_value": 1070
+    },
+    "paperID": {
+      "distinct_count": 7,
+      "null_count": 0,
+      "sample_values": [
+        200,
+        201,
+        202,
+        203,
+        204
+      ],
+      "min_value": 200,
+      "max_value": 206
+    },
+    "authOrder": {
+      "distinct_count": 3,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3
+      ],
+      "min_value": 1,
+      "max_value": 3
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "database_id": "flight_2",
+  "tables": {
+    "airlines": {
+      "name": "airlines",
+      "columns": {
+        "uid": {
+          "name": "uid",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Airline": {
+          "name": "Airline",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Abbreviation": {
+          "name": "Abbreviation",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Country": {
+          "name": "Country",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "uid"
+      ],
+      "foreign_keys": []
+    },
+    "airports": {
+      "name": "airports",
+      "columns": {
+        "City": {
+          "name": "City",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "AirportCode": {
+          "name": "AirportCode",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "AirportName": {
+          "name": "AirportName",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Country": {
+          "name": "Country",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "CountryAbbrev": {
+          "name": "CountryAbbrev",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "AirportCode"
+      ],
+      "foreign_keys": []
+    },
+    "flights": {
+      "name": "flights",
+      "columns": {
+        "Airline": {
+          "name": "Airline",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "FlightNo": {
+          "name": "FlightNo",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "SourceAirport": {
+          "name": "SourceAirport",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "DestAirport": {
+          "name": "DestAirport",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "Airline",
+        "FlightNo"
+      ],
+      "foreign_keys": [
+        {
+          "column": "DestAirport",
+          "target_table": "airports",
+          "target_column": "AirportCode"
+        },
+        {
+          "column": "SourceAirport",
+          "target_table": "airports",
+          "target_column": "AirportCode"
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "source": "spider_ingestor",
+    "database_id": "flight_2",
+    "table": null,
+    "column": null,
+    "source_file": null,
+    "timestamp": "77824_1545018058.0"
+  }
+}

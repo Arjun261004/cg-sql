@@ -1,0 +1,191 @@
+{
+  "database_id": "flight_company",
+  "tables": {
+    "airport": {
+      "name": "airport",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "City": {
+          "name": "City",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Country": {
+          "name": "Country",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "IATA": {
+          "name": "IATA",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "ICAO": {
+          "name": "ICAO",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "name": {
+          "name": "name",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "id"
+      ],
+      "foreign_keys": []
+    },
+    "operate_company": {
+      "name": "operate_company",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "name": {
+          "name": "name",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Type": {
+          "name": "Type",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Principal_activities": {
+          "name": "Principal_activities",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Incorporated_in": {
+          "name": "Incorporated_in",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Group_Equity_Shareholding": {
+          "name": "Group_Equity_Shareholding",
+          "type": "REAL",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "id"
+      ],
+      "foreign_keys": []
+    },
+    "flight": {
+      "name": "flight",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Vehicle_Flight_number": {
+          "name": "Vehicle_Flight_number",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Date": {
+          "name": "Date",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Pilot": {
+          "name": "Pilot",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Velocity": {
+          "name": "Velocity",
+          "type": "REAL",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Altitude": {
+          "name": "Altitude",
+          "type": "REAL",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "airport_id": {
+          "name": "airport_id",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "company_id": {
+          "name": "company_id",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "company_id",
+          "target_table": "operate_company",
+          "target_column": "id"
+        },
+        {
+          "column": "airport_id",
+          "target_table": "airport",
+          "target_column": "id"
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "source": "spider_ingestor",
+    "database_id": "flight_company",
+    "table": null,
+    "column": null,
+    "source_file": null,
+    "timestamp": "28672_1537759644.0"
+  }
+}

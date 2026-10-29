@@ -1,0 +1,313 @@
+{
+  "continents": {
+    "ContId": {
+      "distinct_count": 5,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 5
+    },
+    "Continent": {
+      "distinct_count": 5,
+      "null_count": 0,
+      "sample_values": [
+        "america",
+        "europe",
+        "asia",
+        "africa",
+        "australia"
+      ],
+      "min_value": "africa",
+      "max_value": "europe"
+    }
+  },
+  "countries": {
+    "CountryId": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 15
+    },
+    "CountryName": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        "usa",
+        "germany",
+        "france",
+        "japan",
+        "italy"
+      ],
+      "min_value": "australia",
+      "max_value": "usa"
+    },
+    "Continent": {
+      "distinct_count": 5,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 5
+    }
+  },
+  "car_makers": {
+    "Id": {
+      "distinct_count": 22,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 23
+    },
+    "Maker": {
+      "distinct_count": 22,
+      "null_count": 0,
+      "sample_values": [
+        "amc",
+        "volkswagen",
+        "bmw",
+        "gm",
+        "ford"
+      ],
+      "min_value": "amc",
+      "max_value": "volvo"
+    },
+    "FullName": {
+      "distinct_count": 22,
+      "null_count": 0,
+      "sample_values": [
+        "American Motor Company",
+        "Volkswagen",
+        "BMW",
+        "General Motors",
+        "Ford Motor Company"
+      ],
+      "min_value": "American Motor Company",
+      "max_value": "Volvo"
+    },
+    "Country": {
+      "distinct_count": 8,
+      "null_count": 0,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "min_value": "1",
+      "max_value": "8"
+    }
+  },
+  "model_list": {
+    "ModelId": {
+      "distinct_count": 36,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 36
+    },
+    "Maker": {
+      "distinct_count": 23,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 23
+    },
+    "Model": {
+      "distinct_count": 36,
+      "null_count": 0,
+      "sample_values": [
+        "amc",
+        "audi",
+        "bmw",
+        "buick",
+        "cadillac"
+      ],
+      "min_value": "amc",
+      "max_value": "volvo"
+    }
+  },
+  "car_names": {
+    "MakeId": {
+      "distinct_count": 406,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 406
+    },
+    "Model": {
+      "distinct_count": 33,
+      "null_count": 0,
+      "sample_values": [
+        "chevrolet",
+        "buick",
+        "plymouth",
+        "amc",
+        "ford"
+      ],
+      "min_value": " volkswagen",
+      "max_value": "volvo"
+    },
+    "Make": {
+      "distinct_count": 310,
+      "null_count": 0,
+      "sample_values": [
+        "chevrolet chevelle malibu",
+        "buick skylark 320",
+        "plymouth satellite",
+        "amc rebel sst",
+        "ford torino"
+      ],
+      "min_value": " mazda glc deluxe",
+      "max_value": "vw rabbit custom"
+    }
+  },
+  "cars_data": {
+    "Id": {
+      "distinct_count": 406,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 406
+    },
+    "MPG": {
+      "distinct_count": 130,
+      "null_count": 0,
+      "sample_values": [
+        "18",
+        "15",
+        "16",
+        "17",
+        "14"
+      ],
+      "min_value": "10",
+      "max_value": "null"
+    },
+    "Cylinders": {
+      "distinct_count": 5,
+      "null_count": 0,
+      "sample_values": [
+        8,
+        4,
+        6,
+        3,
+        5
+      ],
+      "min_value": 3,
+      "max_value": 8
+    },
+    "Edispl": {
+      "distinct_count": 83,
+      "null_count": 0,
+      "sample_values": [
+        307.0,
+        350.0,
+        318.0,
+        304.0,
+        302.0
+      ],
+      "min_value": 68.0,
+      "max_value": 455.0
+    },
+    "Horsepower": {
+      "distinct_count": 94,
+      "null_count": 0,
+      "sample_values": [
+        "130",
+        "165",
+        "150",
+        "140",
+        "198"
+      ],
+      "min_value": "100",
+      "max_value": "null"
+    },
+    "Weight": {
+      "distinct_count": 356,
+      "null_count": 0,
+      "sample_values": [
+        3504,
+        3693,
+        3436,
+        3433,
+        3449
+      ],
+      "min_value": 1613,
+      "max_value": 5140
+    },
+    "Accelerate": {
+      "distinct_count": 96,
+      "null_count": 0,
+      "sample_values": [
+        12.0,
+        11.5,
+        11.0,
+        10.5,
+        10.0
+      ],
+      "min_value": 8.0,
+      "max_value": 24.8
+    },
+    "Year": {
+      "distinct_count": 13,
+      "null_count": 0,
+      "sample_values": [
+        1970,
+        1971,
+        1972,
+        1973,
+        1974
+      ],
+      "min_value": 1970,
+      "max_value": 1982
+    }
+  }
+}

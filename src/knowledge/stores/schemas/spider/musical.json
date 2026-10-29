@@ -1,0 +1,128 @@
+{
+  "database_id": "musical",
+  "tables": {
+    "musical": {
+      "name": "musical",
+      "columns": {
+        "Musical_ID": {
+          "name": "Musical_ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Name": {
+          "name": "Name",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Year": {
+          "name": "Year",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Award": {
+          "name": "Award",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Category": {
+          "name": "Category",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Nominee": {
+          "name": "Nominee",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Result": {
+          "name": "Result",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "Musical_ID"
+      ],
+      "foreign_keys": []
+    },
+    "actor": {
+      "name": "actor",
+      "columns": {
+        "Actor_ID": {
+          "name": "Actor_ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Name": {
+          "name": "Name",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Musical_ID": {
+          "name": "Musical_ID",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Character": {
+          "name": "Character",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Duration": {
+          "name": "Duration",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "age": {
+          "name": "age",
+          "type": "INT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "Actor_ID"
+      ],
+      "foreign_keys": [
+        {
+          "column": "Musical_ID",
+          "target_table": "actor",
+          "target_column": "Actor_ID"
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "source": "spider_ingestor",
+    "database_id": "musical",
+    "table": null,
+    "column": null,
+    "source_file": null,
+    "timestamp": "20480_1537759650.0"
+  }
+}

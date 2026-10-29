@@ -1,0 +1,182 @@
+[
+  {
+    "source_table": "course",
+    "source_column": "dept_name",
+    "target_table": "department",
+    "target_column": "dept_name",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "instructor",
+    "source_column": "dept_name",
+    "target_table": "department",
+    "target_column": "dept_name",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "section",
+    "source_column": "building",
+    "target_table": "classroom",
+    "target_column": "building",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "section",
+    "source_column": "room_number",
+    "target_table": "classroom",
+    "target_column": "room_number",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "section",
+    "source_column": "course_id",
+    "target_table": "course",
+    "target_column": "course_id",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "teaches",
+    "source_column": "ID",
+    "target_table": "instructor",
+    "target_column": "ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "teaches",
+    "source_column": "course_id",
+    "target_table": "section",
+    "target_column": "course_id",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "teaches",
+    "source_column": "sec_id",
+    "target_table": "section",
+    "target_column": "sec_id",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "teaches",
+    "source_column": "semester",
+    "target_table": "section",
+    "target_column": "semester",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "teaches",
+    "source_column": "year",
+    "target_table": "section",
+    "target_column": "year",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "student",
+    "source_column": "dept_name",
+    "target_table": "department",
+    "target_column": "dept_name",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "takes",
+    "source_column": "ID",
+    "target_table": "student",
+    "target_column": "ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "takes",
+    "source_column": "course_id",
+    "target_table": "section",
+    "target_column": "course_id",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "takes",
+    "source_column": "sec_id",
+    "target_table": "section",
+    "target_column": "sec_id",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "takes",
+    "source_column": "semester",
+    "target_table": "section",
+    "target_column": "semester",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "takes",
+    "source_column": "year",
+    "target_table": "section",
+    "target_column": "year",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "advisor",
+    "source_column": "s_ID",
+    "target_table": "student",
+    "target_column": "ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "advisor",
+    "source_column": "i_ID",
+    "target_table": "instructor",
+    "target_column": "ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "prereq",
+    "source_column": "prereq_id",
+    "target_table": "course",
+    "target_column": "course_id",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "prereq",
+    "source_column": "course_id",
+    "target_table": "course",
+    "target_column": "course_id",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  }
+]

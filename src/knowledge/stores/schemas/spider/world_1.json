@@ -1,0 +1,221 @@
+{
+  "database_id": "world_1",
+  "tables": {
+    "city": {
+      "name": "city",
+      "columns": {
+        "ID": {
+          "name": "ID",
+          "type": "INTEGER",
+          "nullable": false,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Name": {
+          "name": "Name",
+          "type": "char(35)",
+          "nullable": false,
+          "is_primary_key": false,
+          "default_value": "''"
+        },
+        "CountryCode": {
+          "name": "CountryCode",
+          "type": "char(3)",
+          "nullable": false,
+          "is_primary_key": false,
+          "default_value": "''"
+        },
+        "District": {
+          "name": "District",
+          "type": "char(20)",
+          "nullable": false,
+          "is_primary_key": false,
+          "default_value": "''"
+        },
+        "Population": {
+          "name": "Population",
+          "type": "INTEGER",
+          "nullable": false,
+          "is_primary_key": false,
+          "default_value": "'0'"
+        }
+      },
+      "primary_keys": [
+        "ID"
+      ],
+      "foreign_keys": [
+        {
+          "column": "CountryCode",
+          "target_table": "country",
+          "target_column": "Code"
+        }
+      ]
+    },
+    "country": {
+      "name": "country",
+      "columns": {
+        "Code": {
+          "name": "Code",
+          "type": "char(3)",
+          "nullable": false,
+          "is_primary_key": true,
+          "default_value": "''"
+        },
+        "Name": {
+          "name": "Name",
+          "type": "char(52)",
+          "nullable": false,
+          "is_primary_key": false,
+          "default_value": "''"
+        },
+        "Continent": {
+          "name": "Continent",
+          "type": "TEXT",
+          "nullable": false,
+          "is_primary_key": false,
+          "default_value": "'Asia'"
+        },
+        "Region": {
+          "name": "Region",
+          "type": "char(26)",
+          "nullable": false,
+          "is_primary_key": false,
+          "default_value": "''"
+        },
+        "SurfaceArea": {
+          "name": "SurfaceArea",
+          "type": "float(10,2)",
+          "nullable": false,
+          "is_primary_key": false,
+          "default_value": "'0.00'"
+        },
+        "IndepYear": {
+          "name": "IndepYear",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": "NULL"
+        },
+        "Population": {
+          "name": "Population",
+          "type": "INTEGER",
+          "nullable": false,
+          "is_primary_key": false,
+          "default_value": "'0'"
+        },
+        "LifeExpectancy": {
+          "name": "LifeExpectancy",
+          "type": "float(3,1)",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": "NULL"
+        },
+        "GNP": {
+          "name": "GNP",
+          "type": "float(10,2)",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": "NULL"
+        },
+        "GNPOld": {
+          "name": "GNPOld",
+          "type": "float(10,2)",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": "NULL"
+        },
+        "LocalName": {
+          "name": "LocalName",
+          "type": "char(45)",
+          "nullable": false,
+          "is_primary_key": false,
+          "default_value": "''"
+        },
+        "GovernmentForm": {
+          "name": "GovernmentForm",
+          "type": "char(45)",
+          "nullable": false,
+          "is_primary_key": false,
+          "default_value": "''"
+        },
+        "HeadOfState": {
+          "name": "HeadOfState",
+          "type": "char(60)",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": "NULL"
+        },
+        "Capital": {
+          "name": "Capital",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": "NULL"
+        },
+        "Code2": {
+          "name": "Code2",
+          "type": "char(2)",
+          "nullable": false,
+          "is_primary_key": false,
+          "default_value": "''"
+        }
+      },
+      "primary_keys": [
+        "Code"
+      ],
+      "foreign_keys": []
+    },
+    "countrylanguage": {
+      "name": "countrylanguage",
+      "columns": {
+        "CountryCode": {
+          "name": "CountryCode",
+          "type": "char(3)",
+          "nullable": false,
+          "is_primary_key": true,
+          "default_value": "''"
+        },
+        "Language": {
+          "name": "Language",
+          "type": "char(30)",
+          "nullable": false,
+          "is_primary_key": true,
+          "default_value": "''"
+        },
+        "IsOfficial": {
+          "name": "IsOfficial",
+          "type": "TEXT",
+          "nullable": false,
+          "is_primary_key": false,
+          "default_value": "'F'"
+        },
+        "Percentage": {
+          "name": "Percentage",
+          "type": "float(4,1)",
+          "nullable": false,
+          "is_primary_key": false,
+          "default_value": "'0.0'"
+        }
+      },
+      "primary_keys": [
+        "CountryCode",
+        "Language"
+      ],
+      "foreign_keys": [
+        {
+          "column": "CountryCode",
+          "target_table": "country",
+          "target_column": "Code"
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "source": "spider_ingestor",
+    "database_id": "world_1",
+    "table": null,
+    "column": null,
+    "source_file": null,
+    "timestamp": "319488_1537759650.0"
+  }
+}

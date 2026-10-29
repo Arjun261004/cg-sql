@@ -1,0 +1,258 @@
+{
+  "database_id": "car_1",
+  "tables": {
+    "continents": {
+      "name": "continents",
+      "columns": {
+        "ContId": {
+          "name": "ContId",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Continent": {
+          "name": "Continent",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "ContId"
+      ],
+      "foreign_keys": []
+    },
+    "countries": {
+      "name": "countries",
+      "columns": {
+        "CountryId": {
+          "name": "CountryId",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "CountryName": {
+          "name": "CountryName",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Continent": {
+          "name": "Continent",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "CountryId"
+      ],
+      "foreign_keys": [
+        {
+          "column": "Continent",
+          "target_table": "continents",
+          "target_column": "ContId"
+        }
+      ]
+    },
+    "car_makers": {
+      "name": "car_makers",
+      "columns": {
+        "Id": {
+          "name": "Id",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Maker": {
+          "name": "Maker",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "FullName": {
+          "name": "FullName",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Country": {
+          "name": "Country",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "Id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "Country",
+          "target_table": "countries",
+          "target_column": "CountryId"
+        }
+      ]
+    },
+    "model_list": {
+      "name": "model_list",
+      "columns": {
+        "ModelId": {
+          "name": "ModelId",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Maker": {
+          "name": "Maker",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Model": {
+          "name": "Model",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "ModelId"
+      ],
+      "foreign_keys": [
+        {
+          "column": "Maker",
+          "target_table": "car_makers",
+          "target_column": "Id"
+        }
+      ]
+    },
+    "car_names": {
+      "name": "car_names",
+      "columns": {
+        "MakeId": {
+          "name": "MakeId",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "Model": {
+          "name": "Model",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Make": {
+          "name": "Make",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "MakeId"
+      ],
+      "foreign_keys": [
+        {
+          "column": "Model",
+          "target_table": "model_list",
+          "target_column": "Model"
+        }
+      ]
+    },
+    "cars_data": {
+      "name": "cars_data",
+      "columns": {
+        "Id": {
+          "name": "Id",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "MPG": {
+          "name": "MPG",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Cylinders": {
+          "name": "Cylinders",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Edispl": {
+          "name": "Edispl",
+          "type": "REAL",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Horsepower": {
+          "name": "Horsepower",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Weight": {
+          "name": "Weight",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Accelerate": {
+          "name": "Accelerate",
+          "type": "REAL",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "Year": {
+          "name": "Year",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "Id"
+      ],
+      "foreign_keys": [
+        {
+          "column": "Id",
+          "target_table": "car_names",
+          "target_column": "MakeId"
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "source": "spider_ingestor",
+    "database_id": "car_1",
+    "table": null,
+    "column": null,
+    "source_file": null,
+    "timestamp": "65536_1545017954.0"
+  }
+}

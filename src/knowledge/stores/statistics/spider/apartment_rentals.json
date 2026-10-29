@@ -1,0 +1,401 @@
+{
+  "Apartment_Buildings": {
+    "building_id": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        133,
+        153,
+        191,
+        196,
+        225
+      ],
+      "min_value": 133,
+      "max_value": 968
+    },
+    "building_short_name": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        "Normandie Court",
+        "Mercedes House",
+        "The Eugene",
+        "VIA 57 WEST",
+        "Columbus Square"
+      ],
+      "min_value": "Avalon Park",
+      "max_value": "Windsor Court"
+    },
+    "building_full_name": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        "Normandie Court",
+        "Mercedes House",
+        "The Eugene",
+        "VIA 57 WEST",
+        "Columbus Square"
+      ],
+      "min_value": "Avalon Park",
+      "max_value": "Windsor Court"
+    },
+    "building_description": {
+      "distinct_count": 3,
+      "null_count": 0,
+      "sample_values": [
+        "Studio",
+        "Flat",
+        "Duplex"
+      ],
+      "min_value": "Duplex",
+      "max_value": "Studio"
+    },
+    "building_address": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        "7950 Casper Vista Apt. 176\nMarquiseberg, CA 70496",
+        "354 Otto Villages\nCharliefort, VT 71664",
+        "71537 Gorczany Inlet\nWisozkburgh, AL 08256",
+        "959 Ethel Viaduct\nWest Efrainburgh, DE 40074",
+        "0703 Danika Mountains Apt. 362\nMohrland, AL 56839-5028"
+      ],
+      "min_value": "012 Arnoldo Mountain\nGerholdland, ID 23342",
+      "max_value": "959 Ethel Viaduct\nWest Efrainburgh, DE 40074"
+    },
+    "building_manager": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        "Emma",
+        "Brenden",
+        "Melyssa",
+        "Kathlyn",
+        "Kyle"
+      ],
+      "min_value": "Albert",
+      "max_value": "Sydni"
+    },
+    "building_phone": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        "(948)040-1064x387",
+        "915-617-2408x832",
+        "(609)946-0491",
+        "681.772.2454",
+        "1-724-982-9507x640"
+      ],
+      "min_value": "(145)411-6406",
+      "max_value": "915-617-2408x832"
+    }
+  },
+  "Apartments": {
+    "apt_id": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 15
+    },
+    "building_id": {
+      "distinct_count": 9,
+      "null_count": 0,
+      "sample_values": [
+        808,
+        624,
+        225,
+        744,
+        191
+      ],
+      "min_value": 153,
+      "max_value": 808
+    },
+    "apt_type_code": {
+      "distinct_count": 3,
+      "null_count": 0,
+      "sample_values": [
+        "Flat",
+        "Studio",
+        "Duplex"
+      ],
+      "min_value": "Duplex",
+      "max_value": "Studio"
+    },
+    "apt_number": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        "Suite 645",
+        "Apt. 585",
+        "Apt. 908",
+        "Suite 749",
+        "Suite 307"
+      ],
+      "min_value": "Apt. 187",
+      "max_value": "Suite 749"
+    },
+    "bathroom_count": {
+      "distinct_count": 3,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3
+      ],
+      "min_value": 1,
+      "max_value": 3
+    },
+    "bedroom_count": {
+      "distinct_count": 4,
+      "null_count": 0,
+      "sample_values": [
+        3,
+        4,
+        6,
+        5
+      ],
+      "min_value": 3,
+      "max_value": 6
+    },
+    "room_count": {
+      "distinct_count": 6,
+      "null_count": 0,
+      "sample_values": [
+        "7",
+        "5",
+        "8",
+        "9",
+        "6"
+      ],
+      "min_value": "3",
+      "max_value": "9"
+    }
+  },
+  "Apartment_Facilities": {
+    "apt_id": {
+      "distinct_count": 7,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "min_value": 1,
+      "max_value": 15
+    },
+    "facility_code": {
+      "distinct_count": 4,
+      "null_count": 0,
+      "sample_values": [
+        "Boardband",
+        "Gym",
+        "Swimming Pool",
+        "Cable TV"
+      ],
+      "min_value": "Boardband",
+      "max_value": "Swimming Pool"
+    }
+  },
+  "Guests": {
+    "guest_id": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 15
+    },
+    "gender_code": {
+      "distinct_count": 3,
+      "null_count": 0,
+      "sample_values": [
+        "Male",
+        "Unknown",
+        "Female"
+      ],
+      "min_value": "Female",
+      "max_value": "Unknown"
+    },
+    "guest_first_name": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        "Kip",
+        "Rebeca",
+        "Keon",
+        "Gabe",
+        "Lou"
+      ],
+      "min_value": "Crystal",
+      "max_value": "Tamia"
+    },
+    "guest_last_name": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        "DuBuque",
+        "Runolfsdottir",
+        "Treutel",
+        "Bode",
+        "Grady"
+      ],
+      "min_value": "Bode",
+      "max_value": "Treutel"
+    },
+    "date_of_birth": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        "1995-11-04 07:09:57",
+        "1974-05-12 21:53:58",
+        "1974-08-20 09:28:05",
+        "2007-09-11 19:01:39",
+        "1997-01-15 17:37:40"
+      ],
+      "min_value": "1971-01-04 04:22:58",
+      "max_value": "2015-02-03 23:34:13"
+    }
+  },
+  "Apartment_Bookings": {
+    "apt_booking_id": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        258,
+        279,
+        337,
+        343,
+        365
+      ],
+      "min_value": 258,
+      "max_value": 924
+    },
+    "apt_id": {
+      "distinct_count": 10,
+      "null_count": 0,
+      "sample_values": [
+        10,
+        15,
+        8,
+        4,
+        9
+      ],
+      "min_value": 2,
+      "max_value": 15
+    },
+    "guest_id": {
+      "distinct_count": 10,
+      "null_count": 0,
+      "sample_values": [
+        2,
+        15,
+        5,
+        13,
+        12
+      ],
+      "min_value": 2,
+      "max_value": 15
+    },
+    "booking_status_code": {
+      "distinct_count": 2,
+      "null_count": 0,
+      "sample_values": [
+        "Provisional",
+        "Confirmed"
+      ],
+      "min_value": "Confirmed",
+      "max_value": "Provisional"
+    },
+    "booking_start_date": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        "2016-09-26 17:13:49",
+        "2016-04-01 06:28:08",
+        "2017-03-13 16:20:14",
+        "2016-08-04 10:33:00",
+        "2017-02-11 14:34:14"
+      ],
+      "min_value": "2016-04-01 06:28:08",
+      "max_value": "2017-07-03 14:15:56"
+    },
+    "booking_end_date": {
+      "distinct_count": 15,
+      "null_count": 0,
+      "sample_values": [
+        "2017-10-07 11:38:48",
+        "2017-10-25 11:08:42",
+        "2018-02-19 16:59:08",
+        "2017-09-29 12:43:50",
+        "2017-10-07 20:47:19"
+      ],
+      "min_value": "2017-09-28 11:08:15",
+      "max_value": "2018-03-20 17:32:58"
+    }
+  },
+  "View_Unit_Status": {
+    "apt_id": {
+      "distinct_count": 12,
+      "null_count": 0,
+      "sample_values": [
+        11,
+        15,
+        6,
+        12,
+        13
+      ],
+      "min_value": 1,
+      "max_value": 15
+    },
+    "apt_booking_id": {
+      "distinct_count": 12,
+      "null_count": 0,
+      "sample_values": [
+        920,
+        575,
+        924,
+        497,
+        807
+      ],
+      "min_value": 258,
+      "max_value": 924
+    },
+    "status_date": {
+      "distinct_count": 20,
+      "null_count": 0,
+      "sample_values": [
+        "1970-09-28 10:24:29",
+        "1972-03-23 22:55:53",
+        "1973-10-28 04:30:14",
+        "1976-12-18 04:03:51",
+        "1977-04-15 13:42:19"
+      ],
+      "min_value": "1970-09-28 10:24:29",
+      "max_value": "2015-07-15 11:06:29"
+    },
+    "available_yn": {
+      "distinct_count": 2,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        0
+      ],
+      "min_value": 0,
+      "max_value": 1
+    }
+  }
+}

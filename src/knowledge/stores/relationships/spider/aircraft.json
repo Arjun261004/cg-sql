@@ -1,0 +1,38 @@
+[
+  {
+    "source_table": "match",
+    "source_column": "Winning_Pilot",
+    "target_table": "pilot",
+    "target_column": "Pilot_Id",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "match",
+    "source_column": "Winning_Aircraft",
+    "target_table": "aircraft",
+    "target_column": "Aircraft_ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "airport_aircraft",
+    "source_column": "Aircraft_ID",
+    "target_table": "aircraft",
+    "target_column": "Aircraft_ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "airport_aircraft",
+    "source_column": "Airport_ID",
+    "target_table": "airport",
+    "target_column": "Airport_ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  }
+]

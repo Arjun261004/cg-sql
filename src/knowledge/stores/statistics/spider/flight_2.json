@@ -1,0 +1,166 @@
+{
+  "airlines": {
+    "uid": {
+      "distinct_count": 12,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 12
+    },
+    "Airline": {
+      "distinct_count": 12,
+      "null_count": 0,
+      "sample_values": [
+        "United Airlines",
+        "US Airways",
+        "Delta Airlines",
+        "Southwest Airlines",
+        "American Airlines"
+      ],
+      "min_value": "AirTran Airways",
+      "max_value": "Virgin America"
+    },
+    "Abbreviation": {
+      "distinct_count": 12,
+      "null_count": 0,
+      "sample_values": [
+        "UAL",
+        "USAir",
+        "Delta",
+        "Southwest",
+        "American"
+      ],
+      "min_value": "AirTran",
+      "max_value": "Virgin"
+    },
+    "Country": {
+      "distinct_count": 1,
+      "null_count": 0,
+      "sample_values": [
+        "USA"
+      ],
+      "min_value": "USA",
+      "max_value": "USA"
+    }
+  },
+  "airports": {
+    "City": {
+      "distinct_count": 85,
+      "null_count": 0,
+      "sample_values": [
+        "Aberdeen ",
+        "Abilene ",
+        "Abingdon ",
+        "Ada ",
+        "Adak Island "
+      ],
+      "min_value": " Alexander City AL  ",
+      "max_value": "Athens "
+    },
+    "AirportCode": {
+      "distinct_count": 100,
+      "null_count": 0,
+      "sample_values": [
+        "AAF",
+        "ABI",
+        "ABL",
+        "ABQ",
+        "ABR"
+      ],
+      "min_value": "AAF",
+      "max_value": "WKK"
+    },
+    "AirportName": {
+      "distinct_count": 89,
+      "null_count": 0,
+      "sample_values": [
+        "Phillips AAF ",
+        "Municipal ",
+        "Dyess AFB ",
+        "Virginia Highlands ",
+        "Ada "
+      ],
+      "min_value": "Ada ",
+      "max_value": "Zahns "
+    },
+    "Country": {
+      "distinct_count": 1,
+      "null_count": 0,
+      "sample_values": [
+        "United States "
+      ],
+      "min_value": "United States ",
+      "max_value": "United States "
+    },
+    "CountryAbbrev": {
+      "distinct_count": 2,
+      "null_count": 0,
+      "sample_values": [
+        "US ",
+        "US"
+      ],
+      "min_value": "US",
+      "max_value": "US "
+    }
+  },
+  "flights": {
+    "Airline": {
+      "distinct_count": 12,
+      "null_count": 0,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "min_value": 1,
+      "max_value": 12
+    },
+    "FlightNo": {
+      "distinct_count": 836,
+      "null_count": 0,
+      "sample_values": [
+        28,
+        29,
+        44,
+        45,
+        54
+      ],
+      "min_value": 2,
+      "max_value": 1535
+    },
+    "SourceAirport": {
+      "distinct_count": 100,
+      "null_count": 0,
+      "sample_values": [
+        " APG",
+        " ASY",
+        " CVO",
+        " ACV",
+        " AHD"
+      ],
+      "min_value": " AAF",
+      "max_value": " WKK"
+    },
+    "DestAirport": {
+      "distinct_count": 100,
+      "null_count": 0,
+      "sample_values": [
+        " ASY",
+        " APG",
+        " ACV",
+        " CVO",
+        " AHT"
+      ],
+      "min_value": " AAF",
+      "max_value": " WKK"
+    }
+  }
+}

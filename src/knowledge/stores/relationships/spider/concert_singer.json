@@ -1,0 +1,29 @@
+[
+  {
+    "source_table": "concert",
+    "source_column": "Stadium_ID",
+    "target_table": "stadium",
+    "target_column": "Stadium_ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "singer_in_concert",
+    "source_column": "Singer_ID",
+    "target_table": "singer",
+    "target_column": "Singer_ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "singer_in_concert",
+    "source_column": "concert_ID",
+    "target_table": "concert",
+    "target_column": "concert_ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  }
+]

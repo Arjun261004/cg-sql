@@ -1,0 +1,151 @@
+{
+  "database_id": "icfp_1",
+  "tables": {
+    "Inst": {
+      "name": "Inst",
+      "columns": {
+        "instID": {
+          "name": "instID",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "name": {
+          "name": "name",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "country": {
+          "name": "country",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "instID"
+      ],
+      "foreign_keys": []
+    },
+    "Authors": {
+      "name": "Authors",
+      "columns": {
+        "authID": {
+          "name": "authID",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "lname": {
+          "name": "lname",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        },
+        "fname": {
+          "name": "fname",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "authID"
+      ],
+      "foreign_keys": []
+    },
+    "Papers": {
+      "name": "Papers",
+      "columns": {
+        "paperID": {
+          "name": "paperID",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "title": {
+          "name": "title",
+          "type": "TEXT",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "paperID"
+      ],
+      "foreign_keys": []
+    },
+    "Authorship": {
+      "name": "Authorship",
+      "columns": {
+        "authID": {
+          "name": "authID",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "instID": {
+          "name": "instID",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "paperID": {
+          "name": "paperID",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": true,
+          "default_value": null
+        },
+        "authOrder": {
+          "name": "authOrder",
+          "type": "INTEGER",
+          "nullable": true,
+          "is_primary_key": false,
+          "default_value": null
+        }
+      },
+      "primary_keys": [
+        "authID",
+        "instID",
+        "paperID"
+      ],
+      "foreign_keys": [
+        {
+          "column": "paperID",
+          "target_table": "Papers",
+          "target_column": "paperID"
+        },
+        {
+          "column": "instID",
+          "target_table": "Inst",
+          "target_column": "instID"
+        },
+        {
+          "column": "authID",
+          "target_table": "Authors",
+          "target_column": "authID"
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "source": "spider_ingestor",
+    "database_id": "icfp_1",
+    "table": null,
+    "column": null,
+    "source_file": null,
+    "timestamp": "12288_1537759644.0"
+  }
+}

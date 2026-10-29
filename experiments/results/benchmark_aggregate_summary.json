@@ -1,0 +1,16 @@
+{
+  "total_evaluated": 25,
+  "initial_execution_accuracy_pct": 64.0,
+  "final_execution_accuracy_pct": 68.0,
+  "net_accuracy_gain_pct": 4.0,
+  "exact_match_pct": 52.0,
+  "parse_validity_pct": 100.0,
+  "execution_success_pct": 92.0,
+  "repaired_queries_count": 3,
+  "newly_repaired_count": 1,
+  "mis_repairs_count": 0,
+  "mis_repair_rate_pct": 0.0,
+  "mean_latency_ms": 13897.61,
+  "median_latency_ms": 6528.36,
+  "p95_latency_ms": 72406.9
+}

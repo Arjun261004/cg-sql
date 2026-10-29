@@ -1,0 +1,6 @@
+configuration,sample_size,execution_accuracy_pct,exact_match_pct,repaired_queries,mis_repair_rate_pct,median_latency_ms,mean_latency_ms
+Full CG-SQL (Proposed),10,80.0,60.0,1,0.0,8395.68,20435.29
+w/o Backward Expressibility Validation,10,70.0,60.0,1,0.0,13222.02,21261.65
+w/o Schema Pruning (Full Schema Only),10,80.0,60.0,1,0.0,3962.52,14487.08
+w/o MapleDoctor Repair,10,70.0,60.0,0,0.0,2934.37,11062.31
+w/o Risk-Based Selection (Greedy),10,80.0,60.0,1,0.0,3319.68,10658.12

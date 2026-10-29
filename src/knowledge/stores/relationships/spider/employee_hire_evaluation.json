@@ -1,0 +1,29 @@
+[
+  {
+    "source_table": "hiring",
+    "source_column": "Employee_ID",
+    "target_table": "employee",
+    "target_column": "Employee_ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "hiring",
+    "source_column": "Shop_ID",
+    "target_table": "shop",
+    "target_column": "Shop_ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  },
+  {
+    "source_table": "evaluation",
+    "source_column": "Employee_ID",
+    "target_table": "employee",
+    "target_column": "Employee_ID",
+    "relationship_type": "foreign_key",
+    "source": "sqlite",
+    "confidence": 1.0
+  }
+]

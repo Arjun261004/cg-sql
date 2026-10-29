@@ -1,0 +1,15 @@
+{
+  "dialect": "DuckDB",
+  "supported_functions": [
+    "COUNT", "SUM", "AVG", "MIN", "MAX",
+    "SUBSTRING", "POSITION", "LENGTH", "REPLACE",
+    "UPPER", "LOWER", "ABS", "ROUND",
+    "COALESCE", "CAST",
+    "DATE_TRUNC", "EXTRACT", "EPOCH",
+    "STRING_AGG", "LIST"
+  ],
+  "date_syntax": "Native DATE/TIMESTAMP types. DATE_TRUNC('month', col) is fully supported.",
+  "string_functions": "|| or CONCAT for concatenation.",
+  "identifier_quoting": "Double quotes \"identifier\".",
+  "known_restrictions": []
+}
